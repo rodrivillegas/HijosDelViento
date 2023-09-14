@@ -79,7 +79,7 @@ const productosJSON = `
       "nombre": "LIMONADA ALABADO 500cc.",
       "descripcion": "Limón + Agua de Rosas + Flor de Hibiscus.",
       "precio": 900,
-      "imagen": "./assets/LimonadaAlabado.jpg"
+      "imagen": "./assets/Limonada.jpg"
     },
     {
       "categoria": "LIMONADA",
@@ -87,7 +87,7 @@ const productosJSON = `
       "nombre": "LIMONADA ALABADO 1L",
       "descripcion": "Limón + Agua de Rosas + Flor de Hibiscus.",
       "precio": 1600,
-      "imagen": "./assets/LimonadaAlabado.jpg"
+      "imagen": "./assets/Limonada.jpg"
     },
     {
       "categoria": "LIMONADA",
@@ -95,7 +95,7 @@ const productosJSON = `
       "nombre": "LIMONADA CHIC 500cc",
       "descripcion": "Limón + Pepino + Agua + Ananá.",
       "precio": 800,
-      "imagen": "./assets/LimonadaChic.jpg"
+      "imagen": "./assets/Limonada.jpg"
     },
     {
       "categoria": "LIMONADA",
@@ -103,7 +103,7 @@ const productosJSON = `
       "nombre": "LIMONADA CHIC 1L.",
       "descripcion": "Limón + Pepino + Agua + Ananá.",
       "precio": 1500,
-      "imagen": "./assets/LimonadaChic.jpg"
+      "imagen": "./assets/Limonada.jpg"
     },
     {
       "categoria": "GASEOSAS Y AGUAS",

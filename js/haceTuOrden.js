@@ -63,7 +63,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -71,7 +71,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -79,7 +79,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -87,7 +87,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -95,7 +95,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -103,7 +103,7 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -111,339 +111,339 @@ const productosJSON = `
       "nombre": "PAPAS HUMO",
       "descripcion": "Papas fritas + lactonesa ahumada de limón + verdeo.",
       "precio": 1900,
-      "imagen": "./assets/PapasHumo.jpg"
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "HAMBURGUESAS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH MONTECRISTO",
       "descripcion": "Jamón cocido + Tomate asado + Cebolla encurtida + Salsa de mostaza.",
       "precio": 2800,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Hamburguesa.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "LOMOS",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Lomo.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
-      "genero": "SUNSET (de 19hs a 21hs)",
+      "genero": "SANDWHICHES",
       "nombre": "SANDWICH GRONCHO",
       "descripcion": "Bondiola o Jamón Crudo + Queso + Manteca especiada (elige en los comentarios).",
       "precio": 2700,
-      "imagen": "./assets/Sandwich.jpg"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "OJO DE BIFE A LA PARRILLA (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4500,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
       "categoria": "TABLA DE MILANESAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "BIFE DE CHORIZO (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4400,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/TablaMilanesas.jpg"
     },
     {
       "categoria": "TABLA DE MILANESAS",
-      "genero": "PRINCIPALES",
+      "genero": "MINUTAS",
       "nombre": "BIFE DE CHORIZO (25min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4400,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/TablaMilanesas.jpg"
     },
     {
       "categoria": "COMIDA MEXICANA",
-      "genero": "PRINCIPALES",
+      "genero": "MEXICAN FOOD",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Tacos.jpg"
     },
     {
       "categoria": "COMIDA MEXICANA",
-      "genero": "PRINCIPALES",
+      "genero": "MEXICAN FOOD",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Tacos.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "PIZZAS",
-      "genero": "PRINCIPALES",
+      "genero": "PIZZA",
       "nombre": "COSTILLA BANDERITA (30min.)",
       "descripcion": "Se asan en el momento, favor de considerar tiempo y disponibilidad.",
       "precio": 4300,
-      "imagen": "./assets/Carne.jpg"
+      "imagen": "./assets/Pizza.jpg"
     },
     {
       "categoria": "POSTRES",
-      "genero": "SELECTOS",
+      "genero": "POSTRES",
       "nombre": "PAVLOVA SIN T.A.C.C.",
       "descripcion": "Base de merengue + Dulce de leche + Crema chantilly. Opciones (según la estación): a) Pera; b) Frutos rojos; c) Frutilla; d) Frutas de estación (elige en los comentarios).",
       "precio": 2500,
@@ -451,7 +451,7 @@ const productosJSON = `
     },
     {
       "categoria": "POSTRES",
-      "genero": "SELECTOS",
+      "genero": "POSTRES",
       "nombre": "CREMOSO DE CHOCOLATE AMARGO SIN T.A.C.C.",
       "descripcion": "Tierra de cacao con harina de coco + Lajas de caramelo con semillas de sésamo + Curd de naranja.",
       "precio": 2200,
@@ -459,7 +459,7 @@ const productosJSON = `
     },
     {
       "categoria": "POSTRES",
-      "genero": "SELECTOS",
+      "genero": "POSTRES",
       "nombre": "SHOT DEGUSTACIÓN x 3 SIN T.A.C.C.",
       "descripcion": "",
       "precio": 2900,
@@ -467,7 +467,7 @@ const productosJSON = `
     },
     {
       "categoria": "POSTRES",
-      "genero": "SELECTOS",
+      "genero": "POSTRES",
       "nombre": "SHOT DEGUSTACIÓN x 3 SIN T.A.C.C.",
       "descripcion": "",
       "precio": 2900,
@@ -475,7 +475,7 @@ const productosJSON = `
     },
     {
       "categoria": "SUGERENCIA DEL DIA",
-      "genero": "MERIENDA",
+      "genero": "SUGERENCIA DEL DIA",
       "nombre": "M. CLASICA",
       "descripcion": "Café con leche o infusión + 2 tostadas de pan de campo + mermelada de fruta de estación + Queso crema + Dulce de leche + Jugo de naranja.",
       "precio": 1800,
