@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link rel="shortcut icon" href="./assets/AlabadoFavicon.webp" />
+    <link rel="stylesheet" type="text/css" href="./estilos/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>Hijos del Viento On-line</title>
+  </head>
+  <body>
+    <div id="animation-container">
+      <img id="logo" src="assets/LogoHijosDelVientoAnimacion.png" alt="Logo" />
+    </div>
+    <div id="opcionesBotones" style="text-align: center">
+      <h1>
+        "HIJOS DEL VIENTO" <br />
+        Bar de amigos
+      </h1>
+      <div class="categoria h2Inicio" style="text-align: center">
+        <h2>Gestioná On-line tu Delivery</h2>
+      </div>
+      <button class="haceTuOrden" onclick="mostrarOpciones('haceTuOrden')">
+        CARTA DE COMIDAS
+      </button>
+      <button
+        class="haceTuOrdenBebida"
+        onclick="mostrarOpciones('haceTuOrdenBebida')"
+      >
+        CARTA DE BEBIDAS
+      </button>
+      <!-- <button class="llamarAlMozo" onclick="mostrarOpciones('llamarAlMozo')">
+        LLAMÁ AL MOZO
+      </button>
+      <button class="pedirLaCuenta" onclick="mostrarOpciones('pedirLaCuenta')">
+        PEDÍ LA CUENTA
+      </button> -->
+    </div>
+
+    <div id="filtro-selector" style="display: none">
+      <select id="category-select" onchange="filterTable();">
+        <option value="todas">Todas las categorías</option>
+        <option value="ENTRADADS">ENTRADAS 🍟</option>
+        <option value="SANDWICHES">SANDWICHES 🥪</option>
+        <option value="MILANESAS/SUPREMAS">MILANESAS/SUPREMAS 🥩🍗</option>
+        <option value="ENTRADAS">TABLA DE MILANESAS 🍱</option>
+        <option value="COMIDA MEXICANA">COMIDA MEXICANA 🌮</option>
+        <option value="PIZZAS">PIZZAS 🍕</option>
+        <option value="POSTRES">POSTRES 🍨</option>
+        <option value="SUGERENCIA DEL DIA">SUGERENCIA DEL DIA 👨‍🍳</option>
+      </select>
+      <div id="productos-container"></div>
+    </div>
+
+    <div id="filtro-selector1" style="display: none">
+      <select id="category-select1" onchange="filterTable1();">
+        <option value="todas">Todas las categorías</option>
+        <option value="CERVEZAS">CERVEZAS 🍺</option>
+        <option value="VINOS">VINOS 🍷</option>
+        <option value="GASEOSAS Y AGUAS">GASEOSAS Y AGUAS 💧</option>
+        <option value="TRAGOS">TRAGOS 🍹</option>
+        <option value="GINTONERIA">GINTONERIA 🍸</option>
+        <option value="LO NUEVO">LO NUEVO 🦸‍♂️</option>
+      </select>
+      <div id="productos-container1"></div>
+    </div>
+
+    <div id="content" style="display: none">
+      <div id="productos-container"></div>
+      <div class="orden" style="text-align: center">
+        <h2 id="tu_orden"></h2>
+        <ul id="orden_lista"></ul>
+        <h2 id="precio_final"></h2>
+        <h2 id="leyenda"></h2>
+        <button id="btnComentarios" onclick="mostrarDesplegable()">
+          ¿Comentarios?
+        </button>
+        <button id="btnComentariosMozo" onclick="mostrarDesplegable()">
+          ¿Comentarios?
+        </button>
+        <div id="desplegable_comentarios" style="display: none">
+          <textarea
+            id="campo_comentarios"
+            placeholder="Dejanos aquí tus comentarios 😃"
+          ></textarea>
+          <button id="btn_enviar" onclick="guardarComentarios()">
+            Agregar
+          </button>
+          <button id="btn_cerrar" onclick="cerrarDesplegable()">Cerrar</button>
+        </div>
+
+        <div id="datos_usuario" style="display: none" class="input-wrapper">
+          <input
+            type="text"
+            id="nombre_usuario"
+            placeholder="Nombre"
+            required
+            oninput="this.value = this.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]/g, '');"
+          />
+          <input
+            type="number"
+            id="telefono"
+            placeholder="N° de teléfono"
+            required
+          />
+          <div class="styled-select">
+            <label for="modoEntrega">¿RETIRA o ENVIAMOS?</label>
+            <select id="modoEntrega" required onchange="mostrarOcultarDireccion()">
+              <option value="" disabled selected>ELIGE</option>
+              <option value="RETIRO">RETIRA</option>
+              <option value="ENVÍO">ENVIAMOS</option>
+            </select>
+          </div>
+          <input
+            type="text"
+            id="direccion"
+            placeholder="Agrega tu dirección"
+            required
+            class="direccionDeEnvio"
+            style="display: none;"
+          />
+        </div>
+        <button id="boton_pedido" onclick="enviarPedido()">
+          Enviar pedido
+        </button>
+        <button id="boton_mozo" onclick="enviarPedido()">Llamar al Mozo</button>
+        <button id="boton_cuenta" onclick="enviarPedido()">
+          Pedir la Cuenta
+        </button>
+      </div>
+    </div>
+    <footer>
+      <p>© 2023 HIJOS DEL VIENTO On-line. Todos los derechos reservados.</p>
+      <p>Pedro C. Molina 393 - Almafuerte - Tel (0351) 765-8461.</p>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script_selector.js"></script>
+  </body>
+</html>
