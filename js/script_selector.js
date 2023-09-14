@@ -34,12 +34,6 @@ function mostrarOpciones(tipo) {
     cargarScript("./js/haceTuOrden.js", mostrarFiltroSelector);
   } else if (tipo === "haceTuOrdenBebida") {
     cargarScript("./js/haceTuOrdenBebida.js", mostrarFiltroSelector1);
-  } else if (tipo === "llamarAlMozo") {
-    cargarScript("./js/llamarAlMozo.js");
-  } else if (tipo === "pedirLaCuenta") {
-    var botonComentarios = document.getElementById("btnComentarios");
-    botonComentarios.classList.add("mostrar");
-    cargarScript("./js/pedirLaCuenta.js");
   }
 }
 

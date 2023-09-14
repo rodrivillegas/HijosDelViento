@@ -84,7 +84,6 @@ h2 {
   margin-bottom: 8.3rem;
 }
 
-
 .mi-clase-h2 {
   margin-bottom: 10rem;
 }
@@ -570,7 +569,7 @@ footer p {
 /* Estilos para el selector de categoría */
 #category-select,
 #category-select1 {
-  width: 50%;
+  width: 70%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -604,7 +603,7 @@ footer p {
 
 /* Estilo para la clase "styled-select" */
 .styled-select select {
-  width: 40%;
+  width: 45%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -624,6 +623,6 @@ footer p {
 
 #direccion {
   width: 88%;
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
