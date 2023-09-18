@@ -263,7 +263,7 @@ const productosJSON = `
       "nombre": "CINZANO + POMELO",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/CinzanoPomelo.png"
     },
     {
       "categoria": "TRAGOS",
@@ -271,7 +271,7 @@ const productosJSON = `
       "nombre": "RON + LIMÓN + AZUCAR + MENTA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/Mojito.png"
     },
     {
       "categoria": "TRAGOS",
