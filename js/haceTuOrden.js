@@ -69,7 +69,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS CON CHEDDAR",
-      "descripcion": "",
+      "descripcion": "Panceta ahumada + Lactonesa casera",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -77,7 +77,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS HIJOS DEL VIENTO",
-      "descripcion": "",
+      "descripcion": "Salsa criolla + Lactonesa casera",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -85,7 +85,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS MEXICANAS",
-      "descripcion": "",
+      "descripcion": "Con chimi casero",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -125,7 +125,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA CHEDDAR",
-      "descripcion": "",
+      "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -133,7 +133,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA MEXICANA",
-      "descripcion": "",
+      "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -141,7 +141,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA ROQUEFORT Y MORRONES",
-      "descripcion": "",
+      "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -149,7 +149,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA RUCULA",
-      "descripcion": "",
+      "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -157,7 +157,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA CUATRO QUESOS",
-      "descripcion": "",
+      "descripcion": "Variedad de quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -165,7 +165,7 @@ const productosJSON = `
       "categoria": "HAMBURGUESAS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA VEGETARIANA",
-      "descripcion": "",
+      "descripcion": "Medallón vegetariano + Rúcula + Tomate + Huevo + pimientos asados",
       "precio": 2800,
       "imagen": "./assets/Hamburguesa.jpg"
     },
@@ -173,7 +173,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO COMPLETO",
-      "descripcion": "",
+      "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -181,7 +181,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO CHEDDAR",
-      "descripcion": "",
+      "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -189,7 +189,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO MEXICANO",
-      "descripcion": "",
+      "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -197,7 +197,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO ROQUEFORT Y MORRONES",
-      "descripcion": "",
+      "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -205,7 +205,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO RUCULA",
-      "descripcion": "",
+      "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -213,7 +213,7 @@ const productosJSON = `
       "categoria": "LOMOS",
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO CUATRO QUESOS",
-      "descripcion": "",
+      "descripcion": "Variedad de Quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 2700,
       "imagen": "./assets/Lomo.jpg"
     },
@@ -325,7 +325,7 @@ const productosJSON = `
       "categoria": "MILANESAS/SUPREMAS",
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "SUPREMA 3 QUESOS",
-      "descripcion": "",
+      "descripcion": "Con + Pimientos Asados",
       "precio": 4500,
       "imagen": "./assets/Milanesa.jpg"
     },
@@ -365,7 +365,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA MUZZARELLA",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -373,7 +373,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA ESPECIAL",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -381,7 +381,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA NAPOLITANA",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -389,7 +389,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA NAPO + ALBAHACA",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -397,7 +397,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA ROQUEFORT",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -405,7 +405,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA ROQUEFORT + MORRONES",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -413,7 +413,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA VERDURAS AL WOK",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -421,7 +421,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "FAJIPIZZA",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Pimientos al wok + Carne de lomo desmenuzada",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -429,7 +429,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA RUCULA",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },
@@ -437,7 +437,7 @@ const productosJSON = `
       "categoria": "PIZZAS",
       "genero": "PIZZA",
       "nombre": "PIZA 3 QUESOS",
-      "descripcion": "",
+      "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
     },

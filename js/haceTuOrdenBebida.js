@@ -58,90 +58,362 @@ const productosJSON = `
 {
   "Menu": [
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA CLASICA 800cc.",
-      "descripcion": "Limón + Agua + Menta + Jengibre + Syrup de Limón.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL LAGER 1L",
+      "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialLager1L.png"
     },
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA CLASICA 1L",
-      "descripcion": "Limón + Agua + Menta + Jengibre + Syrup de Limón.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL ROJA 1L",
+      "descripcion": "",
       "precio": 1600,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialAmberLager1L.png"
     },
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA ALABADO 500cc.",
-      "descripcion": "Limón + Agua de Rosas + Flor de Hibiscus.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL IPA 1L",
+      "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialIpa1L.png"
     },
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA ALABADO 1L",
-      "descripcion": "Limón + Agua de Rosas + Flor de Hibiscus.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL APA 1L",
+      "descripcion": "",
       "precio": 1600,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialApa1L.png"
     },
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA CHIC 500cc",
-      "descripcion": "Limón + Pepino + Agua + Ananá.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL NEGRA 1L",
+      "descripcion": "",
       "precio": 800,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialNegra1L.png"
     },
     {
-      "categoria": "LIMONADA",
-      "genero": "SIN ALCOHOL",
-      "nombre": "LIMONADA CHIC 1L.",
-      "descripcion": "Limón + Pepino + Agua + Ananá.",
+      "categoria": "CERVEZA",
+      "genero": "IMPERIAL",
+      "nombre": "IMPERIAL GOLDEN 1L",
+      "descripcion": "",
       "precio": 1500,
-      "imagen": "./assets/Limonada.jpg"
+      "imagen": "./assets/ImperialGolden1L.png"
     },
     {
-      "categoria": "GASEOSAS Y AGUAS",
-      "genero": "SIN ALCOHOL",
-      "nombre": "PEPSI CLASICA o CERO AZUCAR",
-      "descripcion": "(elige en los comentarios)",
+      "categoria": "CERVEZA",
+      "genero": "HEINEKEN",
+      "nombre": "HEINEKEN 1L",
+      "descripcion": "",
       "precio": 700,
-      "imagen": "./assets/Pepsi.jpg"
+      "imagen": "./assets/Heineken1L.png"
     },
     {
-      "categoria": "GASEOSAS Y AGUAS",
-      "genero": "SIN ALCOHOL",
-      "nombre": "SEVEN UP CLASICA o CERO AZUCAR",
-      "descripcion": "(elige en los comentarios)",
+      "categoria": "CERVEZA",
+      "genero": "GROLSCH",
+      "nombre": "GROLSCH 1L",
+      "descripcion": "",
       "precio": 700,
-      "imagen": "./assets/7up.jpg"
+      "imagen": "./assets/Grolsch1L.png"
     },
     {
-      "categoria": "JUGOS",
-      "genero": "SIN ALCOHOL",
-      "nombre": "JUGO MINT TONIC",
-      "descripcion": "Menta + Syrup, Jugo de limón + Agua tónica",
+      "categoria": "CERVEZA",
+      "genero": "SOL",
+      "nombre": "SOL 710cc.",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Sol1L.png"
+    },
+    {
+      "categoria": "CERVEZA",
+      "genero": "MILLER",
+      "nombre": "MILLER 1L",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Miller1L.png"
+    },
+    {
+      "categoria": "CERVEZA",
+      "genero": "MONJITA",
+      "nombre": "MILLER 330cm3.",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Miller330cc.png"
+    },
+    {
+      "categoria": "CERVEZA",
+      "genero": "MONJITA",
+      "nombre": "HEINEKEN 330cm3.",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Heineken330cc.png"
+    },
+    {
+      "categoria": "CERVEZA",
+      "genero": "MONJITA",
+      "nombre": "HEINEKEN S/ALCOHOL 330cm3.",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/HeinekenSA330cc.png"
+    },
+    {
+      "categoria": "SIN ALCOHOL",
+      "genero": "GASEOSAS",
+      "nombre": "GASEOSAS 350cc. (elije el sabor en los comentarios)",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Gaseosa.png"
+    },
+    {
+      "categoria": "SIN ALCOHOL",
+      "genero": "AGUA SABORIZADA",
+      "nombre": "AGUA SABORIZADA 500cc. (elije el sabor en los comentarios)",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/AguaSaborizada500cc.png"
+    },
+    {
+      "categoria": "SIN ALCOHOL",
+      "genero": "AGUA SIN GAS",
+      "nombre": "AGUA SIN GAS 500cc.",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Agua500cc.png"
+    },
+    {
+      "categoria": "SIN ALCOHOL",
+      "genero": "LIMONADA",
+      "nombre": "LIMONADA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/Limonada.png"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "FERNET BRANCA",
+      "nombre": "FERNET + COCA",
+      "descripcion": "",
       "precio": 900,
       "imagen": "./assets/JugoNaranja.jpg"
     },
     {
-      "categoria": "JUGOS",
-      "genero": "SIN ALCOHOL",
-      "nombre": "JUGO FUERTE ALMA",
-      "descripcion": "Jugo Multifrutas + Jugo de limón + Syrup de vainilla",
+      "categoria": "TRAGOS",
+      "genero": "GANCIA LIMON",
+      "nombre": "GANCIA + LIMON",
+      "descripcion": "",
       "precio": 900,
       "imagen": "./assets/JugoNaranja.jpg"
     },
     {
-      "categoria": "JUGOS",
-      "genero": "SIN ALCOHOL",
-      "nombre": "JUGO DE NARANJA 500cc.",
-      "descripcion": "Jugo de naranja naturalmente exprimido",
+      "categoria": "TRAGOS",
+      "genero": "APEROL + SODA",
+      "nombre": "APEROL",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "CAMPARI",
+      "nombre": "CAMPARI + NARANJA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "CUBA LIBRE",
+      "nombre": "RON + COCA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "NEGRONI",
+      "nombre": "NEGRONI",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "MALIBU",
+      "nombre": "MALIBU + SPRITE + LIMON",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "CAIPI MALIBU",
+      "nombre": "CAIPI + MALIBU",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "CINZANO",
+      "nombre": "CINZANO + POMELO",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "MOJITO CUBANO",
+      "nombre": "RON + LIMÓN + AZUCAR + MENTA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "MOJITO ARANDANOS",
+      "nombre": "MOJITO DE ARANDANOS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "MOJITO FRUTOS ROJOS",
+      "nombre": "MOJITO DE FRUTOS ROJOS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "MOJITO CITRIC",
+      "nombre": "MOJITO CITRIC",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "QUE ME LLEVE EL VIENTO",
+      "nombre": "GINEBRA NEGRA + VODKA + LIMON + SPRITE",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "ME LLEVA EL CHANFLE",
+      "nombre": "GINEBRA NEGRA + LIMON + PASO DE LOS TOROS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "PRODAN",
+      "nombre": "GINEBRA NEGRA + GIN + LIMON + COCA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "TRAGOS",
+      "genero": "SUNSET",
+      "nombre": "NARANJA FROZEN + MALIBU + CAMPARI",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN FRUTOS ROJOS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN PEPINO / ROMERO / LIMON",
+      "descripcion": "(elige en los comentarios)",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN HIJOS DEL VIENTO",
+      "descripcion": "Citric + Botánico + Romero",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN CITRIC",
+      "descripcion": "Naranja + Pomelo + Limón",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN ARANDANOS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN FRUTILLA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "GINTONERIA",
+      "genero": "GINTONERIA",
+      "nombre": "GIN BOTANICO",
+      "descripcion": "Canela + Clavo de Olor + Anis estrellado + Pimienta de jamaica",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "LO NUEVO",
+      "genero": "LO NUEVO",
+      "nombre": "MINT TONIC",
+      "descripcion": "Branca menta + Tónica",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "LO NUEVO",
+      "genero": "LO NUEVO",
+      "nombre": "CAIPIROSKA",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "LO NUEVO",
+      "genero": "LO NUEVO",
+      "nombre": "CAIPIROSKA FRUTOS ROJOS",
+      "descripcion": "",
+      "precio": 900,
+      "imagen": "./assets/JugoNaranja.jpg"
+    },
+    {
+      "categoria": "LO NUEVO",
+      "genero": "LO NUEVO",
+      "nombre": "CYNAR JULEPE",
+      "descripcion": "Cynar + Almibar + Menta + Jugo de Pomelo",
       "precio": 900,
       "imagen": "./assets/JugoNaranja.jpg"
     }
