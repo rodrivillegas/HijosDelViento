@@ -199,7 +199,7 @@ const productosJSON = `
       "nombre": "FERNET + COCA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/FernetConCoca.png"
     },
     {
       "categoria": "TRAGOS",
@@ -207,7 +207,7 @@ const productosJSON = `
       "nombre": "GANCIA + LIMON",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GanciaLimon.png"
     },
     {
       "categoria": "TRAGOS",
@@ -215,7 +215,7 @@ const productosJSON = `
       "nombre": "APEROL",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/Aperol.png"
     },
     {
       "categoria": "TRAGOS",
@@ -223,7 +223,7 @@ const productosJSON = `
       "nombre": "CAMPARI + NARANJA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/Campari.png"
     },
     {
       "categoria": "TRAGOS",
@@ -231,7 +231,7 @@ const productosJSON = `
       "nombre": "RON + COCA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/RonCoca.png"
     },
     {
       "categoria": "TRAGOS",
@@ -239,7 +239,7 @@ const productosJSON = `
       "nombre": "NEGRONI",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/Negroni.png"
     },
     {
       "categoria": "TRAGOS",
@@ -247,7 +247,7 @@ const productosJSON = `
       "nombre": "MALIBU + SPRITE + LIMON",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/MalibuSpriteLimon.png"
     },
     {
       "categoria": "TRAGOS",
@@ -255,7 +255,7 @@ const productosJSON = `
       "nombre": "CAIPI + MALIBU",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/CaipiMalibu.png"
     },
     {
       "categoria": "TRAGOS",
