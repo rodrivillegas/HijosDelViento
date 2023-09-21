@@ -465,19 +465,11 @@ select.opciones {
   width: 80%; /* Ancho del botón */
   border-color: #fff;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 5.5rem;
 }
 
 #opcionesBotones button.haceTuOrdenBebida {
   background-color: #ff9800; /* Color de discoteca */
-}
-
-#opcionesBotones button.llamarAlMozo {
-  background-color: #673ab7; /* Color de discoteca */
-}
-
-#opcionesBotones button.pedirLaCuenta {
-  background-color: #00bcd4; /* Color de discoteca */
 }
 
 #btnComentarios,
@@ -589,7 +581,7 @@ footer p {
 .styled-select label {
   font-size: 3rem;
   color: #333;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   display: block;
   font-weight: bold;
   font-family: "Noto Serif Makasar", serif;
@@ -598,7 +590,6 @@ footer p {
   padding: 1rem 2rem; /* Ajustar el padding para reducir el tamaño */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
   width: 30%;
-  margin-left: 17rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -611,13 +602,11 @@ footer p {
   border-radius: 5px;
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 3rem;
   border-radius: 0.7rem; /* Mayor valor para que parezcan globos */
   padding: 1rem 2rem; /* Ajustar el padding para reducir el tamaño */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
   font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 /* Estilo para las opciones del select */
@@ -632,6 +621,7 @@ footer p {
 }
 
 .scroll-button {
+  font-family: "Noto Serif Makasar", serif;
   position: fixed;
   right: 20px; /* Ajusta la distancia desde el borde derecho según tus preferencias */
   top: 40rem; /* Ajusta la distancia desde la parte superior según tus preferencias */
@@ -647,3 +637,6 @@ footer p {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Agrega sombra si lo deseas */
 }
 
+.modoEntrega {
+  line-height: 3rem;
+}
