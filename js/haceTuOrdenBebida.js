@@ -279,7 +279,7 @@ const productosJSON = `
       "nombre": "MOJITO DE ARANDANOS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/MojitoArandano.png"
     },
     {
       "categoria": "TRAGOS",
@@ -287,7 +287,7 @@ const productosJSON = `
       "nombre": "MOJITO DE FRUTOS ROJOS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/MojitoFrutosRojos.png"
     },
     {
       "categoria": "TRAGOS",
@@ -295,7 +295,7 @@ const productosJSON = `
       "nombre": "MOJITO CITRIC",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/MojitoCitric.png"
     },
     {
       "categoria": "TRAGOS",
@@ -303,7 +303,7 @@ const productosJSON = `
       "nombre": "GINEBRA NEGRA + VODKA + LIMON + SPRITE",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinebraVodkaLimon.png"
     },
     {
       "categoria": "TRAGOS",
@@ -311,7 +311,7 @@ const productosJSON = `
       "nombre": "GINEBRA NEGRA + LIMON + PASO DE LOS TOROS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinebraVodkaLimon.png"
     },
     {
       "categoria": "TRAGOS",
@@ -319,7 +319,7 @@ const productosJSON = `
       "nombre": "GINEBRA NEGRA + GIN + LIMON + COCA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinebraCoca.png"
     },
     {
       "categoria": "TRAGOS",
@@ -327,7 +327,7 @@ const productosJSON = `
       "nombre": "NARANJA FROZEN + MALIBU + CAMPARI",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/MalibuCampari.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -335,7 +335,7 @@ const productosJSON = `
       "nombre": "GIN FRUTOS ROJOS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicFrutosRojos.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -343,7 +343,7 @@ const productosJSON = `
       "nombre": "GIN PEPINO / ROMERO / LIMON",
       "descripcion": "(elige en los comentarios)",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicPepino.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -351,7 +351,7 @@ const productosJSON = `
       "nombre": "GIN HIJOS DEL VIENTO",
       "descripcion": "Citric + Botánico + Romero",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicRomero.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -359,7 +359,7 @@ const productosJSON = `
       "nombre": "GIN CITRIC",
       "descripcion": "Naranja + Pomelo + Limón",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicPomelo.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -367,7 +367,7 @@ const productosJSON = `
       "nombre": "GIN ARANDANOS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicArandanos.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -375,7 +375,7 @@ const productosJSON = `
       "nombre": "GIN FRUTILLA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicFrutilla.png"
     },
     {
       "categoria": "GINTONERIA",
@@ -383,7 +383,7 @@ const productosJSON = `
       "nombre": "GIN BOTANICO",
       "descripcion": "Canela + Clavo de Olor + Anis estrellado + Pimienta de jamaica",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/GinTonicBotanico.png"
     },
     {
       "categoria": "LO NUEVO",
@@ -391,7 +391,7 @@ const productosJSON = `
       "nombre": "MINT TONIC",
       "descripcion": "Branca menta + Tónica",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/BrancaMentaTonica.png"
     },
     {
       "categoria": "LO NUEVO",
@@ -399,7 +399,7 @@ const productosJSON = `
       "nombre": "CAIPIROSKA",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/Caipiroska.png"
     },
     {
       "categoria": "LO NUEVO",
@@ -407,7 +407,7 @@ const productosJSON = `
       "nombre": "CAIPIROSKA FRUTOS ROJOS",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/CaipiFrutilla.png"
     },
     {
       "categoria": "LO NUEVO",
@@ -415,7 +415,7 @@ const productosJSON = `
       "nombre": "CYNAR JULEPE",
       "descripcion": "Cynar + Almibar + Menta + Jugo de Pomelo",
       "precio": 900,
-      "imagen": "./assets/JugoNaranja.jpg"
+      "imagen": "./assets/CynarJulepe.png"
     }
   ]
 }
