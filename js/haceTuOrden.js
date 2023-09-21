@@ -385,7 +385,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA MUZZARELLA",
+      "nombre": "PIZZA MUZZARELLA",
       "descripcion": "Salsa + Muzzarella + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -393,7 +393,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA ESPECIAL",
+      "nombre": "PIZZA ESPECIAL",
       "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -401,7 +401,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA NAPOLITANA",
+      "nombre": "PIZZA NAPOLITANA",
       "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -409,7 +409,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA NAPO + ALBAHACA",
+      "nombre": "PIZZA NAPO + ALBAHACA",
       "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -417,7 +417,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA ROQUEFORT",
+      "nombre": "PIZZA ROQUEFORT",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -425,7 +425,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA ROQUEFORT + MORRONES",
+      "nombre": "PIZZA ROQUEFORT + MORRONES",
       "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -433,7 +433,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA VERDURAS AL WOK",
+      "nombre": "PIZZA VERDURAS AL WOK",
       "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -449,7 +449,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA RUCULA",
+      "nombre": "PIZZA RUCULA",
       "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
@@ -457,7 +457,7 @@ const productosJSON = `
     {
       "categoria": "PIZZAS",
       "genero": "PIZZA",
-      "nombre": "PIZA 3 QUESOS",
+      "nombre": "PIZZA 3 QUESOS",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
       "precio": 4300,
       "imagen": "./assets/Pizza.jpg"
