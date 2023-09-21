@@ -57,7 +57,7 @@
       <select id="category-select1" onchange="filterTable1();">
         <option value="todas">Todas las categorías</option>
         <option value="CERVEZA">CERVEZAS 🍺</option>
-        <option value="SIN ALCOHOL">SIN ALCOHOL 💧</option>   
+        <option value="SIN ALCOHOL">SIN ALCOHOL 💧</option>
         <option value="TRAGOS">TRAGOS 🍹</option>
         <option value="GINTONERIA">GINTONERIA 🍸</option>
         <option value="LO NUEVO">LO NUEVO 🦸‍♂️</option>
@@ -65,68 +65,86 @@
       <div id="productos-container1"></div>
     </div>
 
-    <div id="content" style="display: none">
-      <div id="productos-container"></div>
-      <div class="orden" style="text-align: center">
-        <h2 id="tu_orden"></h2>
-        <ul id="orden_lista"></ul>
-        <h2 id="precio_final"></h2>
-        <h2 id="leyenda"></h2>
-        <button id="btnComentarios" onclick="mostrarDesplegable()">
-          ¿Comentarios?
-        </button>
-        <button id="btnComentariosMozo" onclick="mostrarDesplegable()">
-          ¿Comentarios?
-        </button>
-        <div id="desplegable_comentarios" style="display: none">
-          <textarea
-            id="campo_comentarios"
-            placeholder="Dejanos aquí tus comentarios 😃"
-          ></textarea>
-          <button id="btn_enviar" onclick="guardarComentarios()">
-            Agregar
-          </button>
-          <button id="btn_cerrar" onclick="cerrarDesplegable()">Cerrar</button>
-        </div>
+    <button
+      id="scrollToBottomButton"
+      class="scroll-button"
+      style="display: none"
+    >
+      Ver la Orden 📝
+    </button>
 
-        <div id="datos_usuario" style="display: none" class="input-wrapper">
-          <input
-            type="text"
-            id="nombre_usuario"
-            placeholder="Nombre"
-            required
-            oninput="this.value = this.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]/g, '');"
-          />
-          <input
-            type="number"
-            id="telefono"
-            placeholder="N° de teléfono"
-            required
-          />
-          <div class="styled-select">
-            <label for="modoEntrega">¿RETIRA o ENVIAMOS?</label>
-            <select id="modoEntrega" required onchange="mostrarOcultarDireccion()">
-              <option value="" disabled selected>ELIGE</option>
-              <option value="RETIRO">RETIRA</option>
-              <option value="ENVÍO">ENVIAMOS</option>
-            </select>
+    <div id="final-de-la-pagina">
+      <div id="content" style="display: none">
+        <div id="productos-container"></div>
+        <div class="orden" style="text-align: center">
+          <h2 id="tu_orden"></h2>
+          <ul id="orden_lista"></ul>
+          <h2 id="precio_final"></h2>
+          <h2 id="leyenda"></h2>
+          <button id="btnComentarios" onclick="mostrarDesplegable()">
+            ¿Comentarios?
+          </button>
+          <button id="btnComentariosMozo" onclick="mostrarDesplegable()">
+            ¿Comentarios?
+          </button>
+          <div id="desplegable_comentarios" style="display: none">
+            <textarea
+              id="campo_comentarios"
+              placeholder="Dejanos aquí tus comentarios 😃"
+            ></textarea>
+            <button id="btn_enviar" onclick="guardarComentarios()">
+              Agregar
+            </button>
+            <button id="btn_cerrar" onclick="cerrarDesplegable()">
+              Cerrar
+            </button>
           </div>
-          <input
-            type="text"
-            id="direccion"
-            placeholder="Agrega tu dirección"
-            required
-            class="direccionDeEnvio"
-            style="display: none;"
-          />
+
+          <div id="datos_usuario" style="display: none" class="input-wrapper">
+            <input
+              type="text"
+              id="nombre_usuario"
+              placeholder="Nombre"
+              required
+              oninput="this.value = this.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]/g, '');"
+            />
+            <input
+              type="number"
+              id="telefono"
+              placeholder="N° de teléfono"
+              required
+            />
+            <div class="styled-select">
+              <label for="modoEntrega">¿RETIRO o ENVIO?</label>
+              <select
+                id="modoEntrega"
+                required
+                onchange="mostrarOcultarDireccion()"
+              >
+                <option value="" disabled selected>ELIGE</option>
+                <option value="RETIRO">RETIRO</option>
+                <option value="ENVÍO">ENVIO</option>
+              </select>
+            </div>
+            <input
+              type="text"
+              id="direccion"
+              placeholder="Agrega tu dirección"
+              required
+              class="direccionDeEnvio"
+              style="display: none"
+            />
+          </div>
+          <button id="boton_pedido" onclick="enviarPedido()">
+            Enviar pedido
+          </button>
+          <button id="boton_mozo" onclick="enviarPedido()">
+            Llamar al Mozo
+          </button>
+          <button id="boton_cuenta" onclick="enviarPedido()">
+            Pedir la Cuenta
+          </button>
         </div>
-        <button id="boton_pedido" onclick="enviarPedido()">
-          Enviar pedido
-        </button>
-        <button id="boton_mozo" onclick="enviarPedido()">Llamar al Mozo</button>
-        <button id="boton_cuenta" onclick="enviarPedido()">
-          Pedir la Cuenta
-        </button>
       </div>
     </div>
     <footer>

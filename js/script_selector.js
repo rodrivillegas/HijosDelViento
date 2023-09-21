@@ -24,6 +24,11 @@ function mostrarFiltroSelector1() {
   filtroSelector.style.display = "block";
 }
 
+function mostrarBotonIrAlFinal() {
+  var filtroSelector = document.getElementById("scroll-to-bottom-button");
+  filtroSelector.style.display = "block";
+}
+
 // Función para cargar y mostrar el filtro selector
 function mostrarOpciones(tipo) {
   document.getElementById("opcionesBotones").style.display = "none";
@@ -31,9 +36,9 @@ function mostrarOpciones(tipo) {
   animationContainer.style.display = "none";
 
   if (tipo === "haceTuOrden") {
-    cargarScript("./js/haceTuOrden.js", mostrarFiltroSelector);
+    cargarScript("./js/haceTuOrden.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
   } else if (tipo === "haceTuOrdenBebida") {
-    cargarScript("./js/haceTuOrdenBebida.js", mostrarFiltroSelector1);
+    cargarScript("./js/haceTuOrdenBebida.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
   }
 }
 

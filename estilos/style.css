@@ -599,11 +599,13 @@ footer p {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
   width: 30%;
   margin-left: 17rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Estilo para la clase "styled-select" */
 .styled-select select {
-  width: 45%;
+  width: 37%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -614,6 +616,8 @@ footer p {
   padding: 1rem 2rem; /* Ajustar el padding para reducir el tamaño */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Estilo para las opciones del select */
@@ -626,3 +630,20 @@ footer p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.scroll-button {
+  position: fixed;
+  right: 20px; /* Ajusta la distancia desde el borde derecho según tus preferencias */
+  top: 40rem; /* Ajusta la distancia desde la parte superior según tus preferencias */
+  z-index: 1000; /* Asegúrate de que el botón esté por encima de otros elementos */
+  background-color: #007bff; /* Cambia el color de fondo a tu preferencia */
+  color: #fff; /* Cambia el color del texto a tu preferencia */
+  border: none;
+  border-radius: 50%;
+  width: 6rem; /* Ajusta el ancho del botón según tus preferencias */
+  height: 8rem; /* Ajusta la altura del botón según tus preferencias */
+  font-size: 1.5rem; /* Ajusta el tamaño de la fuente según tus preferencias */
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Agrega sombra si lo deseas */
+}
+

@@ -54,6 +54,26 @@ homeButton.addEventListener("click", function () {
 // Agregar el botón "Home" al contenedor deseado
 document.body.appendChild(homeButton);
 
+// Obtén una referencia al botón y al elemento final de la página
+var scrollToBottomButton = document.getElementById("scrollToBottomButton");
+var finalElement = document.getElementById("final-de-la-pagina");
+
+// Agrega un evento de clic al botón
+scrollToBottomButton.addEventListener("click", function () {
+  // Usa smooth scrolling para desplazarse hacia el elemento final de la página
+  finalElement.scrollIntoView({ behavior: "smooth" });
+});
+
+// Agrega un evento de scroll para mostrar u ocultar el botón
+window.addEventListener("scroll", function () {
+  // Si el usuario ha bajado lo suficiente, muestra el botón
+  if (window.scrollY > 200) {
+    scrollToBottomButton.style.display = "block";
+  } else {
+    scrollToBottomButton.style.display = "none";
+  }
+});
+
 const productosJSON = `
 {
   "Menu": [
@@ -831,6 +851,20 @@ function obtenerDetallesPedido() {
     detallesPedido.push(detallePedido);
   }
   return detallesPedido;
+}
+
+function mostrarOcultarDireccion() {
+  var modoEntrega = document.getElementById("modoEntrega").value;
+  var direccionInput = document.getElementById("direccion");
+
+  // Si se selecciona "ENVIAMOS", muestra el campo de dirección; de lo contrario, ocúltalo
+  if (modoEntrega === "ENVÍO") {
+    direccionInput.style.display = "block";
+    direccionInput.required = true;
+  } else {
+    direccionInput.style.display = "none";
+    direccionInput.required = false;
+  }
 }
 
 function enviarPedido() {

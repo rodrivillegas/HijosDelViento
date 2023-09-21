@@ -54,6 +54,27 @@ homeButton.addEventListener("click", function () {
 // Agregar el botón "Home" al contenedor deseado
 document.body.appendChild(homeButton);
 
+// Obtén una referencia al botón y al elemento final de la página
+var scrollToBottomButton = document.getElementById("scrollToBottomButton");
+var finalElement = document.getElementById("final-de-la-pagina");
+
+// Agrega un evento de clic al botón
+scrollToBottomButton.addEventListener("click", function () {
+  // Usa smooth scrolling para desplazarse hacia el elemento final de la página
+  finalElement.scrollIntoView({ behavior: "smooth" });
+});
+
+// Agrega un evento de scroll para mostrar u ocultar el botón
+window.addEventListener("scroll", function () {
+  // Si el usuario ha bajado lo suficiente, muestra el botón
+  if (window.scrollY > 200) {
+    scrollToBottomButton.style.display = "block";
+  } else {
+    scrollToBottomButton.style.display = "none";
+  }
+});
+
+
 const productosJSON = `
 {
   "Menu": [
