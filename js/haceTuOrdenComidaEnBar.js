@@ -24,7 +24,7 @@ body.insertBefore(tituloH1, body.firstChild);
 
 // Crear el botón "Home"
 var homeButton = document.createElement("div");
-homeButton.textContent = "REGRESAR 🏡";
+homeButton.textContent = "MENU PRINCIPAL";
 homeButton.id = "homeButton"; // Asignar el ID para aplicar los estilos CSS
 homeButton.classList.add("boton-seleccion"); // Agregar la clase existente para mantener el estilo
 

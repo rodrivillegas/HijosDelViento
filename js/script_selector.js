@@ -36,14 +36,36 @@ function mostrarOpciones(tipo) {
   animationContainer.style.display = "none";
 
   if (tipo === "haceTuOrdenComidaDelivery") {
-    cargarScript("./js/haceTuOrdenComidaDelivery.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
+    cargarScript(
+      "./js/haceTuOrdenComidaDelivery.js",
+      mostrarFiltroSelector,
+      mostrarBotonIrAlFinal
+    );
   } else if (tipo === "haceTuOrdenBebidaDelivery") {
-    cargarScript("./js/haceTuOrdenBebidaDelivery.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
+    cargarScript(
+      "./js/haceTuOrdenBebidaDelivery.js",
+      mostrarFiltroSelector1,
+      mostrarBotonIrAlFinal
+    );
   } else if (tipo === "haceTuOrdenBebidaEnBar") {
-    cargarScript("./js/haceTuOrdenBebidaEnBar.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
+    cargarScript(
+      "./js/haceTuOrdenBebidaEnBar.js",
+      mostrarFiltroSelector1,
+      mostrarBotonIrAlFinal
+    );
   } else if (tipo === "haceTuOrdenComidaEnBar") {
-    cargarScript("./js/haceTuOrdenComidaEnBar.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
-  } 
+    cargarScript(
+      "./js/haceTuOrdenComidaEnBar.js",
+      mostrarFiltroSelector,
+      mostrarBotonIrAlFinal
+    );
+  } else if (tipo === "llamarAlMozo") {
+    cargarScript("./js/llamarAlMozo.js");
+  } else if (tipo === "pedirLaCuenta") {
+    var botonComentarios = document.getElementById("btnComentarios");
+    botonComentarios.classList.add("mostrar");
+    cargarScript("./js/pedirLaCuenta.js");
+  }
 }
 
 // Función para cargar un script en el documento y llamar a una función cuando esté cargado

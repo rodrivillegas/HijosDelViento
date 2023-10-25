@@ -82,11 +82,14 @@ h2 {
   padding: 1rem; /* Espaciado interno alrededor del texto */
   letter-spacing: 3px; /* Espaciado entre letras */
   margin-bottom: -5rem;
-
 }
 
 .mi-clase-h2 {
-  margin-bottom: 10rem;
+  margin-top: 6rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -7rem;
 }
 
 h3.todosOFiltra {
@@ -474,16 +477,16 @@ select.opciones {
   background-color: #673ab7; /* Color de discoteca */
 }
 
-#opcionesBotones button.haceTuOrdenComidaDelivery{
+#opcionesBotones button.haceTuOrdenComidaDelivery {
   background-color: #00bcd4; /* Color de discoteca */
 }
 
-#opcionesBotones button.haceTuOrdenBebidaDelivery{
-  background-color: #8BC34A; /* Color de discoteca */
+#opcionesBotones button.haceTuOrdenBebidaDelivery {
+  background-color: #8bc34a; /* Color de discoteca */
 }
 
-#opcionesBotones button.pedirLaCuenta{
-  background-color: #FF5722; /* Color de discoteca */
+#opcionesBotones button.pedirLaCuenta {
+  background-color: #ff5722; /* Color de discoteca */
 }
 
 #btnComentarios,
@@ -665,7 +668,6 @@ footer p {
   margin-bottom: 1rem;
   letter-spacing: 2px;
   text-align: center;
-
 }
 
 .h2subtituloDelivery {
