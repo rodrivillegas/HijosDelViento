@@ -95,7 +95,7 @@ function guardarComentarios() {
 function obtenerDetallesPedido() {
   var detallesPedido = [];
   var pedirLaCuenta = {
-    nombre: "🚨¡PEDIDO DE CUENTA! 🧾",
+    nombre: "🚨¡PEDIDO DE CUENTA!🚨",
     cantidad: "", // Puedes establecer la cantidad que desees
   };
 
