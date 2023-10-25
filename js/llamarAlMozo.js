@@ -70,7 +70,7 @@ botonPedido.style.display = "block";
 function obtenerDetallesPedido() {
   var detallesPedido = [];
   var llamadaAlMozo = {
-    nombre: "¡LLAMANDO MOZO! 💁🏽‍♂️💁🏽‍♀️",
+    nombre: "🚨¡LLAMANDO MOZO! 💁🏽‍♂️💁🏽‍♀️",
     cantidad: "", // Puedes establecer la cantidad que desees
   };
 
