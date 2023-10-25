@@ -81,7 +81,7 @@ h2 {
   margin-right: auto;
   padding: 1rem; /* Espaciado interno alrededor del texto */
   letter-spacing: 3px; /* Espaciado entre letras */
-  margin-bottom: -4rem;
+  margin-bottom: -5rem;
 
 }
 
@@ -657,9 +657,9 @@ footer p {
 
 .h2subtitulo {
   color: black;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Noto Serif Makasar", serif;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
@@ -670,13 +670,14 @@ footer p {
 
 .h2subtituloDelivery {
   color: black;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Noto Serif Makasar", serif;
   margin-top: 5rem;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
   letter-spacing: 2px;
   text-align: center;
+  margin-top: 2rem;
 }
