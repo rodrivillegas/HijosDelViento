@@ -23,7 +23,7 @@
         Bar de amigos
       </h1>
       <div class="categoria h2Inicio" style="text-align: center">
-        <h2>Gestioná On-line tu experiencia 🚀</h2>
+        <h2>Gestioná On-line tu experiencia</h2>
       </div>
 
       <h2 class="h2subtitulo">Estoy en el Bar 🍻</h2>
@@ -31,27 +31,33 @@
         class="haceTuOrdenComidaEnBar"
         onclick="mostrarOpciones('haceTuOrdenComidaEnBar')"
       >
-        COMIDAS EN BAR
-      </button>
-      <button
-        class="haceTuOrdenBebidaEnBar"
-        onclick="mostrarOpciones('haceTuOrdenBebidaEnBar')"
-      >
-        BEBIDAS EN BAR
-      </button>
-
-      <h2 class="h2subtitulo">Para llevar o retirar 🛵</h2>
-      <button
-        class="haceTuOrden"
-        onclick="mostrarOpciones('haceTuOrdenComidaDelivery')"
-      >
-        COMIDAS DELIVERY
+        CARTA DE COMIDAS
       </button>
       <button
         class="haceTuOrdenBebida"
+        onclick="mostrarOpciones('haceTuOrdenBebidaEnBar')"
+      >
+        CARTA DE BEBIDAS
+      </button>
+      <button class="llamarAlMozo" onclick="mostrarOpciones('llamarAlMozo')">
+        LLAMÁ AL MOZO
+      </button>
+      <button class="pedirLaCuenta" onclick="mostrarOpciones('pedirLaCuenta')">
+        PEDÍ LA CUENTA
+      </button>
+
+      <h2 class="h2subtituloDelivery">Para llevar o retirar 🛵</h2>
+      <button
+        class="haceTuOrdenComidaDelivery"
+        onclick="mostrarOpciones('haceTuOrdenComidaDelivery')"
+      >
+        DELIVERY DE COMIDA
+      </button>
+      <button
+        class="haceTuOrdenBebidaDelivery"
         onclick="mostrarOpciones('haceTuOrdenBebidaDelivery')"
       >
-        BEBIDAS DELIVERY
+        DELIVERY DE BEBIDA
       </button>
     </div>
 
@@ -176,12 +182,6 @@
           </div>
           <button id="boton_pedido" onclick="enviarPedido()">
             Enviar pedido
-          </button>
-          <button id="boton_mozo" onclick="enviarPedido()">
-            Llamar al Mozo
-          </button>
-          <button id="boton_cuenta" onclick="enviarPedido()">
-            Pedir la Cuenta
           </button>
         </div>
       </div>

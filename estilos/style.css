@@ -81,7 +81,8 @@ h2 {
   margin-right: auto;
   padding: 1rem; /* Espaciado interno alrededor del texto */
   letter-spacing: 3px; /* Espaciado entre letras */
-  margin-bottom: 8.3rem;
+  margin-bottom: -4rem;
+
 }
 
 .mi-clase-h2 {
@@ -452,23 +453,37 @@ select.opciones {
 #opcionesBotones button {
   font-family: "Helvetica", sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #fff;
   background-color: #0067ff; /* Color principal de la fiesta */
   border: 4px solid #fff;
   border-radius: 4rem; /* Mayor valor para que parezcan globos */
-  padding: 2.2rem; /* Mayor padding para más espacio */
+  padding: 3rem; /* Mayor padding para más espacio */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%; /* Ancho del botón */
+  width: 35%; /* Ancho del botón */
   border-color: #fff;
   text-align: center;
-  margin-top: 4rem;
+  margin: 1rem;
 }
 
 #opcionesBotones button.haceTuOrdenBebida {
   background-color: #ff9800; /* Color de discoteca */
+}
+
+#opcionesBotones button.llamarAlMozo {
+  background-color: #673ab7; /* Color de discoteca */
+}
+
+#opcionesBotones button.haceTuOrdenComidaDelivery{
+  background-color: #00bcd4; /* Color de discoteca */
+}
+
+#opcionesBotones button.haceTuOrdenBebidaDelivery{
+  background-color: #8BC34A; /* Color de discoteca */
+}
+
+#opcionesBotones button.pedirLaCuenta{
+  background-color: #FF5722; /* Color de discoteca */
 }
 
 #btnComentarios,
@@ -642,7 +657,26 @@ footer p {
 
 .h2subtitulo {
   color: black;
-  font-size: 3.8rem;
-  margin-bottom: -2rem;
+  font-size: 5rem;
   font-family: "Noto Serif Makasar", serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.h2subtituloDelivery {
+  color: black;
+  font-size: 5rem;
+  font-family: "Noto Serif Makasar", serif;
+  margin-top: 5rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
 }
