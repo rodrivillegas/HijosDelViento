@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 
 // Crear el título h1
 var tituloH1 = document.createElement("h1");
-tituloH1.textContent = "MENÚ DE BEBIDAS";
+tituloH1.textContent = "MENÚ DE SABORES";
 tituloH1.classList.add("mi-clase-h1");
 
 // Obtener el cuerpo del documento (body)
@@ -78,364 +78,428 @@ const productosJSON = `
 {
   "Menu": [
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL LAGER 1L",
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS CLASICAS",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/ImperialLager1L.png"
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL ROJA 1L",
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS CON CHEDDAR",
+      "descripcion": "Panceta ahumada + Lactonesa casera",
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
+    },
+    {
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS HIJOS DEL VIENTO",
+      "descripcion": "Salsa criolla + Lactonesa casera",
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
+    },
+    {
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS MEXICANAS",
+      "descripcion": "Con chimi casero",
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
+    },
+    {
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS CON KETCHUP",
       "descripcion": "",
-      "precio": 1600,
-      "imagen": "./assets/ImperialAmberLager1L.png"
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL IPA 1L",
+      "categoria": "ENTRADAS",
+      "genero": "PAPAS",
+      "nombre": "PAPAS CON BARBACOA Y CRUDO",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/ImperialIpa1L.png"
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL APA 1L",
+      "categoria": "ENTRADAS",
+      "genero": "NUGGETS",
+      "nombre": "NUGGETS DE POLLO",
       "descripcion": "",
-      "precio": 1600,
-      "imagen": "./assets/ImperialApa1L.png"
+      "precio": 1900,
+      "imagen": "./assets/PapasFritas.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL NEGRA 1L",
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA COMPLETA",
+      "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA CHEDDAR",
+      "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA MEXICANA",
+      "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA ROQUEFORT Y MORRONES",
+      "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA RUCULA",
+      "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA CUATRO QUESOS",
+      "descripcion": "Variedad de quesos + Lechuga + Tomate + Jamón + Huevo",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "HAMBURGUESAS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "HAMBURGUESA VEGETARIANA",
+      "descripcion": "Medallón vegetariano + Rúcula + Tomate + Huevo + pimientos asados",
+      "precio": 2800,
+      "imagen": "./assets/Hamburguesa.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO COMPLETO",
+      "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO CHEDDAR",
+      "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO MEXICANO",
+      "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO ROQUEFORT Y MORRONES",
+      "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO RUCULA",
+      "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "LOMOS",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "LOMO CUATRO QUESOS",
+      "descripcion": "Variedad de Quesos + Lechuga + Tomate + Jamón + Huevo",
+      "precio": 2700,
+      "imagen": "./assets/Lomo.jpg"
+    },
+    {
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
-      "precio": 800,
-      "imagen": "./assets/ImperialNegra1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL GOLDEN 1L",
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
-      "precio": 1500,
-      "imagen": "./assets/ImperialGolden1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "HEINEKEN",
-      "nombre": "HEINEKEN 1L",
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE SUPREMA",
       "descripcion": "",
-      "precio": 700,
-      "imagen": "./assets/Heineken1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "GROLSCH",
-      "nombre": "GROLSCH 1L",
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE MILANESA DE PECETO",
       "descripcion": "",
-      "precio": 700,
-      "imagen": "./assets/Grolsch1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "SOL",
-      "nombre": "SOL 710cc.",
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE PALTA + TOMATE + JAMON + QUESO",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Sol1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "MILLER",
-      "nombre": "MILLER 1L",
+      "categoria": "BAGUETTE",
+      "genero": "SANDWHICHES (c/ FRITAS)",
+      "nombre": "BAGUETTE DE RUCULA + TOMAT + JAMON + QUESO",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Miller1L.png"
+      "precio": 2700,
+      "imagen": "./assets/Baguette.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "MONJITA",
-      "nombre": "MILLER 330cm3.",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "MILANESA AL LIMON",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Miller330cc.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "MONJITA",
-      "nombre": "HEINEKEN 330cm3.",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "MILANESA A LA NAPOLITANA",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Heineken330cc.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "CERVEZA",
-      "genero": "MONJITA",
-      "nombre": "HEINEKEN S/ALCOHOL 330cm3.",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "MILANESA 3 QUESOS",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/HeinekenSA330cc.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "SIN ALCOHOL",
-      "genero": "GASEOSAS",
-      "nombre": "GASEOSAS 350cc. (elije el sabor en los comentarios)",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "MILANESA AL ROQUEFORT",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Gaseosa.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "SIN ALCOHOL",
-      "genero": "AGUA SABORIZADA",
-      "nombre": "AGUA SABORIZADA 500cc. (elije el sabor en los comentarios)",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "SUPREMA AL LIMON",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/AguaSaborizada500cc.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "SIN ALCOHOL",
-      "genero": "AGUA SIN GAS",
-      "nombre": "AGUA SIN GAS 500cc.",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "SUPREMA A LA NAPOLITANA",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Agua500cc.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "SIN ALCOHOL",
-      "genero": "LIMONADA",
-      "nombre": "LIMONADA",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "SUPREMA AL ROQUEFORT",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Limonada.png"
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
     },
     {
-      "categoria": "TRAGOS",
-      "genero": "FERNET BRANCA",
-      "nombre": "FERNET + COCA",
+      "categoria": "MILANESAS/SUPREMAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "SUPREMA 3 QUESOS",
+      "descripcion": "Con + Pimientos Asados",
+      "precio": 4500,
+      "imagen": "./assets/Milanesa.jpg"
+    },
+    {
+      "categoria": "TABLA DE MILANESAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "TABLA MILANESAS LA ORIGINAL",
+      "descripcion": "6 variedades de milanesas de peceto + Rúcula + Crudo + Parmesano.",
+      "precio": 4400,
+      "imagen": "./assets/TablaMilanesas.jpg"
+    },
+    {
+      "categoria": "TABLA DE MILANESAS",
+      "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
+      "nombre": "TABLA DE MILANESAS MIXTA",
+      "descripcion": "3 milanesas de peceto + 3 milanesas de pollo + Rúcula + Crudo + Parmesano.",
+      "precio": 4400,
+      "imagen": "./assets/TablaMilanesas.jpg"
+    },
+    {
+      "categoria": "COMIDA MEXICANA",
+      "genero": "MEXICAN FOOD (c/ FRITAS)",
+      "nombre": "FAJITAS",
+      "descripcion": "2 tacos carne de lomo + Pimientos asados + Cebolla.",
+      "precio": 4300,
+      "imagen": "./assets/Tacos.jpg"
+    },
+    {
+      "categoria": "COMIDA MEXICANA",
+      "genero": "MEXICAN FOOD (c/ FRITAS)",
+      "nombre": "QUESADILLAS",
+      "descripcion": "2 tacos + Jamón + Muzza.",
+      "precio": 4300,
+      "imagen": "./assets/Tacos.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA MUZZARELLA",
+      "descripcion": "Salsa + Muzzarella + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA ESPECIAL",
+      "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA NAPOLITANA",
+      "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA NAPO + ALBAHACA",
+      "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA ROQUEFORT",
+      "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA ROQUEFORT + MORRONES",
+      "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA VERDURAS AL WOK",
+      "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "FAJIPIZZA",
+      "descripcion": "Salsa + Muzzarella + Pimientos al wok + Carne de lomo desmenuzada",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA RUCULA",
+      "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "PIZZAS",
+      "genero": "PIZZA",
+      "nombre": "PIZZA 3 QUESOS",
+      "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
+      "precio": 4300,
+      "imagen": "./assets/Pizza.jpg"
+    },
+    {
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "BOMBON ESCOSES",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/FernetConCoca.png"
+      "precio": 2500,
+      "imagen": "./assets/BudinPan.jpg"
     },
     {
-      "categoria": "TRAGOS",
-      "genero": "GANCIA LIMON",
-      "nombre": "GANCIA + LIMON",
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "CASATTA",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GanciaLimon.png"
+      "precio": 2200,
+      "imagen": "./assets/BudinPan.jpg"
     },
     {
-      "categoria": "TRAGOS",
-      "genero": "APEROL + SODA",
-      "nombre": "APEROL",
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "VIGILANTE",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Aperol.png"
+      "precio": 2900,
+      "imagen": "./assets/BudinPan.jpg"
     },
     {
-      "categoria": "TRAGOS",
-      "genero": "CAMPARI",
-      "nombre": "CAMPARI + NARANJA",
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "FLAN CASERO",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Campari.png"
+      "precio": 2900,
+      "imagen": "./assets/BudinPan.jpg"
     },
     {
-      "categoria": "TRAGOS",
-      "genero": "CUBA LIBRE",
-      "nombre": "RON + COCA",
+      "categoria": "SUGERENCIA DEL DIA",
+      "genero": "SUGERENCIA DEL DIA",
+      "nombre": "SUGERENCIA",
       "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/RonCoca.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "NEGRONI",
-      "nombre": "NEGRONI",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Negroni.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "MALIBU",
-      "nombre": "MALIBU + SPRITE + LIMON",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/MalibuSpriteLimon.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "CAIPI MALIBU",
-      "nombre": "CAIPI + MALIBU",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/CaipiMalibu.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "CINZANO",
-      "nombre": "CINZANO + POMELO",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/CinzanoPomelo.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "MOJITO CUBANO",
-      "nombre": "RON + LIMÓN + AZUCAR + MENTA",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Mojito.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "MOJITO ARANDANOS",
-      "nombre": "MOJITO DE ARANDANOS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/MojitoArandano.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "MOJITO FRUTOS ROJOS",
-      "nombre": "MOJITO DE FRUTOS ROJOS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/MojitoFrutosRojos.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "MOJITO CITRIC",
-      "nombre": "MOJITO CITRIC",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/MojitoCitric.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "QUE ME LLEVE EL VIENTO",
-      "nombre": "GINEBRA NEGRA + VODKA + LIMON + SPRITE",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinebraVodkaLimon.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "ME LLEVA EL CHANFLE",
-      "nombre": "GINEBRA NEGRA + LIMON + PASO DE LOS TOROS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinebraVodkaLimon.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "PRODAN",
-      "nombre": "GINEBRA NEGRA + GIN + LIMON + COCA",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinebraCoca.png"
-    },
-    {
-      "categoria": "TRAGOS",
-      "genero": "SUNSET",
-      "nombre": "NARANJA FROZEN + MALIBU + CAMPARI",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/MalibuCampari.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN FRUTOS ROJOS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinTonicFrutosRojos.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN PEPINO / ROMERO / LIMON",
-      "descripcion": "(elige en los comentarios)",
-      "precio": 900,
-      "imagen": "./assets/GinTonicPepino.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN HIJOS DEL VIENTO",
-      "descripcion": "Citric + Botánico + Romero",
-      "precio": 900,
-      "imagen": "./assets/GinTonicRomero.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN CITRIC",
-      "descripcion": "Naranja + Pomelo + Limón",
-      "precio": 900,
-      "imagen": "./assets/GinTonicPomelo.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN ARANDANOS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinTonicArandanos.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN FRUTILLA",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/GinTonicFrutilla.png"
-    },
-    {
-      "categoria": "GINTONERIA",
-      "genero": "GINTONERIA",
-      "nombre": "GIN BOTANICO",
-      "descripcion": "Canela + Clavo de Olor + Anis estrellado + Pimienta de jamaica",
-      "precio": 900,
-      "imagen": "./assets/GinTonicBotanico.png"
-    },
-    {
-      "categoria": "LO NUEVO",
-      "genero": "LO NUEVO",
-      "nombre": "MINT TONIC",
-      "descripcion": "Branca menta + Tónica",
-      "precio": 900,
-      "imagen": "./assets/BrancaMentaTonica.png"
-    },
-    {
-      "categoria": "LO NUEVO",
-      "genero": "LO NUEVO",
-      "nombre": "CAIPIROSKA",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Caipiroska.png"
-    },
-    {
-      "categoria": "LO NUEVO",
-      "genero": "LO NUEVO",
-      "nombre": "CAIPIROSKA FRUTOS ROJOS",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/CaipiFrutilla.png"
-    },
-    {
-      "categoria": "LO NUEVO",
-      "genero": "LO NUEVO",
-      "nombre": "CYNAR JULEPE",
-      "descripcion": "Cynar + Almibar + Menta + Jugo de Pomelo",
-      "precio": 900,
-      "imagen": "./assets/CynarJulepe.png"
+      "precio": 1800,
+      "imagen": "./assets/CafeConLeche.jpg"
     }
   ]
 }
@@ -524,9 +588,9 @@ function construirContenidoProductos() {
   return contenidoProductos;
 }
 
-function filterTable1() {
-  var category = document.getElementById("category-select1").value;
-  var productosContainer = document.getElementById("productos-container1");
+function filterTable() {
+  var category = document.getElementById("category-select").value;
+  var productosContainer = document.getElementById("productos-container");
   var productosDivs = productosContainer.querySelectorAll(".opcion");
 
   productosDivs.forEach(function (productoDiv, index) {
@@ -548,7 +612,7 @@ function filterTable1() {
   });
 }
 
-const productosContainer = document.getElementById("productos-container1");
+const productosContainer = document.getElementById("productos-container");
 
 productosContainer.innerHTML = construirContenidoProductos();
 
@@ -674,6 +738,11 @@ function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio) {
     var botonPedido = document.getElementById("boton_pedido");
     botonPedido.style.display = "none";
   }
+  // Al final de la función cambiarBoton
+  // ...
+  precioFinalElemento.textContent =
+    "Valor total de la orden: $" + precioFinal.toFixed(2);
+  document.getElementById("precio_final").value = precioFinal; // Establecer el valor en un campo oculto
 }
 
 function resetearDatos(cantidadId, checkboxId, labelId) {
@@ -858,7 +927,7 @@ function mostrarOcultarDireccion() {
   var direccionInput = document.getElementById("direccion");
 
   // Si se selecciona "ENVIAMOS", muestra el campo de dirección; de lo contrario, ocúltalo
-  if (modoEntrega === "ENVÍO") {
+  if (modoEntrega === "ENVIAMOS") {
     direccionInput.style.display = "block";
     direccionInput.required = true;
   } else {
@@ -879,7 +948,7 @@ function enviarPedido() {
     // Mostrar mensaje de alerta personalizado
     var mensaje =
       'Completa los campos con tu "Nombre", "Teléfono", y la forma de entrega.';
-      
+
     Toastify({
       text: mensaje,
       duration: 4000,
@@ -932,6 +1001,7 @@ function enviarPedido() {
       const direccion = document.getElementById("direccion").value;
       var detallesPedido = obtenerDetallesPedido();
       var comentarios = document.getElementById("campo_comentarios").value;
+      var precioFinal = document.getElementById("precio_final").value; // Obtener el valor completo con el signo "$"
 
       // Formatear la fecha actual
       var fechaFormateada =
@@ -957,6 +1027,7 @@ function enviarPedido() {
         modoEntrega,
         detallesPedido,
         comentarios,
+        precioFinal,
         fecha: fechaFormateada, // Guardar la fecha formateada
         hora: horaFormateada, // Guardar la hora formateada
       };

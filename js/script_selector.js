@@ -35,11 +35,15 @@ function mostrarOpciones(tipo) {
   content.style.display = "block";
   animationContainer.style.display = "none";
 
-  if (tipo === "haceTuOrden") {
-    cargarScript("./js/haceTuOrden.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
-  } else if (tipo === "haceTuOrdenBebida") {
-    cargarScript("./js/haceTuOrdenBebida.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
-  }
+  if (tipo === "haceTuOrdenComidaDelivery") {
+    cargarScript("./js/haceTuOrdenComidaDelivery.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
+  } else if (tipo === "haceTuOrdenBebidaDelivery") {
+    cargarScript("./js/haceTuOrdenBebidaDelivery.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
+  } else if (tipo === "haceTuOrdenBebidaEnBar") {
+    cargarScript("./js/haceTuOrdenBebidaEnBar.js", mostrarFiltroSelector1, mostrarBotonIrAlFinal);
+  } else if (tipo === "haceTuOrdenComidaEnBar") {
+    cargarScript("./js/haceTuOrdenComidaEnBar.js", mostrarFiltroSelector, mostrarBotonIrAlFinal);
+  } 
 }
 
 // Función para cargar un script en el documento y llamar a una función cuando esté cargado

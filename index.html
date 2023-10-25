@@ -23,16 +23,35 @@
         Bar de amigos
       </h1>
       <div class="categoria h2Inicio" style="text-align: center">
-        <h2>Gestioná On-line tu Delivery 🚀</h2>
+        <h2>Gestioná On-line tu experiencia 🚀</h2>
       </div>
-      <button class="haceTuOrden" onclick="mostrarOpciones('haceTuOrden')">
-        CARTA DE COMIDAS
+
+      <h2 class="h2subtitulo">Estoy en el Bar 🍻</h2>
+      <button
+        class="haceTuOrdenComidaEnBar"
+        onclick="mostrarOpciones('haceTuOrdenComidaEnBar')"
+      >
+        COMIDAS EN BAR
+      </button>
+      <button
+        class="haceTuOrdenBebidaEnBar"
+        onclick="mostrarOpciones('haceTuOrdenBebidaEnBar')"
+      >
+        BEBIDAS EN BAR
+      </button>
+
+      <h2 class="h2subtitulo">Para llevar o retirar 🛵</h2>
+      <button
+        class="haceTuOrden"
+        onclick="mostrarOpciones('haceTuOrdenComidaDelivery')"
+      >
+        COMIDAS DELIVERY
       </button>
       <button
         class="haceTuOrdenBebida"
-        onclick="mostrarOpciones('haceTuOrdenBebida')"
+        onclick="mostrarOpciones('haceTuOrdenBebidaDelivery')"
       >
-        CARTA DE BEBIDAS
+        BEBIDAS DELIVERY
       </button>
     </div>
 
@@ -100,6 +119,22 @@
             </button>
           </div>
 
+          <div id="datos_usuario1" style="display: none" class="input-wrapper">
+            <input
+              type="text"
+              id="nombre_usuario1"
+              placeholder="Nombre"
+              required
+              oninput="this.value = this.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]/g, '');"
+            />
+            <input
+              type="number"
+              id="numero_mesa"
+              placeholder="Mesa N°"
+              required
+            />
+          </div>
+
           <div id="datos_usuario" style="display: none" class="input-wrapper">
             <input
               type="text"
@@ -115,15 +150,19 @@
               required
             />
             <div class="styled-select">
-              <label for="modoEntrega" class="modoEntrega">¿RETIRO <br> o <br> ENVIO?</label>
+              <label for="modoEntrega" class="modoEntrega"
+                >¿RETIRA <br />
+                o <br />
+                ENVIO?</label
+              >
               <select
                 id="modoEntrega"
                 required
                 onchange="mostrarOcultarDireccion()"
               >
                 <option value="" disabled selected>ELIGE</option>
-                <option value="RETIRO">RETIRO</option>
-                <option value="ENVÍO">ENVIO</option>
+                <option value="RETIRAN">RETIRO</option>
+                <option value="ENVIAMOS">ENVIO</option>
               </select>
             </div>
             <input
