@@ -36,31 +36,39 @@ function mostrarOpciones(tipo) {
   animationContainer.style.display = "none";
 
   if (tipo === "haceTuOrdenComidaDelivery") {
-    cargarScript(
-      "./js/haceTuOrdenComidaDelivery.js",
-      mostrarFiltroSelector,
-      mostrarBotonIrAlFinal
-    );
+    mostrarPopUpComidas(function () {
+      cargarScript(
+        "./js/haceTuOrdenComidaDelivery.js",
+        mostrarFiltroSelector,
+        mostrarBotonIrAlFinal
+      );
+    });
   } else if (tipo === "haceTuOrdenBebidaDelivery") {
-    cargarScript(
-      "./js/haceTuOrdenBebidaDelivery.js",
-      mostrarFiltroSelector1,
-      mostrarBotonIrAlFinal
-    );
+    mostrarPopUpBebidas(function () {
+      cargarScript(
+        "./js/haceTuOrdenBebidaDelivery.js",
+        mostrarFiltroSelector1,
+        mostrarBotonIrAlFinal
+      );
+    });
   } else if (tipo === "haceTuOrdenBebidaEnBar") {
-    cargarScript(
-      "./js/haceTuOrdenBebidaEnBar.js",
-      mostrarFiltroSelector1,
-      mostrarBotonIrAlFinal
-    );
+    mostrarPopUpBebidas(function () {
+      cargarScript(
+        "./js/haceTuOrdenBebidaEnBar.js",
+        mostrarFiltroSelector1,
+        mostrarBotonIrAlFinal
+      );
+    });
   } else if (tipo === "haceTuOrdenComidaEnBar") {
-    cargarScript(
-      "./js/haceTuOrdenComidaEnBar.js",
-      mostrarFiltroSelector,
-      mostrarBotonIrAlFinal
-    );
+    mostrarPopUpComidas(function () {
+      cargarScript(
+        "./js/haceTuOrdenComidaEnBar.js",
+        mostrarFiltroSelector,
+        mostrarBotonIrAlFinal
+      );
+    });
   } else if (tipo === "llamarAlMozo") {
-    cargarScript("./js/llamarAlMozo.js", mostrarVentanaEmergente);
+    cargarScript("./js/llamarAlMozo.js");
   } else if (tipo === "pedirLaCuenta") {
     var botonComentarios = document.getElementById("btnComentarios");
     botonComentarios.classList.add("mostrar");
@@ -76,17 +84,14 @@ function cargarScript(url, callback) {
   document.head.appendChild(script);
 }
 
-// Función para mostrar la ventana emergente
-function mostrarVentanaEmergente() {
-  console.log("Función mostrarVentanaEmergente llamada"); // Agrega este console.log
-
+function mostrarPopUpBebidas(callback) {
   // Crear el div para la ventana emergente
   var ventanaEmergente = document.createElement("div");
-  ventanaEmergente.classList.add("ventana-emergente");
+  ventanaEmergente.classList.add("ventana-emergenteBebidas");
 
   // Crear la imagen de la publicidad
   var imagenPublicidad = document.createElement("img");
-  imagenPublicidad.src = "../assets/fondoHDV.jpg"; // Reemplaza con la URL de tu imagen
+  imagenPublicidad.src = "../assets/PopUpBebidas.jpg"; // Reemplaza con la URL de tu imagen
   ventanaEmergente.appendChild(imagenPublicidad);
 
   // Crear el botón para cerrar la ventana emergente
@@ -94,6 +99,36 @@ function mostrarVentanaEmergente() {
   cerrarBoton.textContent = "Cerrar";
   cerrarBoton.addEventListener("click", function () {
     ventanaEmergente.style.display = "none";
+    // Ejecutar el callback después de cerrar la ventana emergente
+    if (typeof callback === "function") {
+      callback();
+    }
+  });
+  ventanaEmergente.appendChild(cerrarBoton);
+
+  // Agregar la ventana emergente al cuerpo del documento
+  document.body.appendChild(ventanaEmergente);
+}
+
+function mostrarPopUpComidas(callback) {
+  // Crear el div para la ventana emergente
+  var ventanaEmergente = document.createElement("div");
+  ventanaEmergente.classList.add("ventana-emergenteComida");
+
+  // Crear la imagen de la publicidad
+  var imagenPublicidad = document.createElement("img");
+  imagenPublicidad.src = "../assets/PopUpComidas.jpg"; // Reemplaza con la URL de tu imagen
+  ventanaEmergente.appendChild(imagenPublicidad);
+
+  // Crear el botón para cerrar la ventana emergente
+  var cerrarBoton = document.createElement("button");
+  cerrarBoton.textContent = "Cerrar";
+  cerrarBoton.addEventListener("click", function () {
+    ventanaEmergente.style.display = "none";
+    // Ejecutar el callback después de cerrar la ventana emergente
+    if (typeof callback === "function") {
+      callback();
+    }
   });
   ventanaEmergente.appendChild(cerrarBoton);
 

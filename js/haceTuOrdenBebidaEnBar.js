@@ -1,4 +1,3 @@
-
 var listaOrden = document.getElementById("orden_lista");
 const firebaseConfig = {
   apiKey: "AIzaSyBdYZYJRiUsC_v1jcKf9d248qJOYpUCyPI",
