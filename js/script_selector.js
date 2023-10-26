@@ -91,7 +91,7 @@ function mostrarPopUpBebidas(callback) {
 
   // Crear la imagen de la publicidad
   var imagenPublicidad = document.createElement("img");
-  imagenPublicidad.src = "../assets/PopUpBebidas.jpg"; // Reemplaza con la URL de tu imagen
+  imagenPublicidad.src = "./assets/PopUpBebidas.jpg"; // Reemplaza con la URL de tu imagen
   ventanaEmergente.appendChild(imagenPublicidad);
 
   // Crear el botón para cerrar la ventana emergente
@@ -117,7 +117,7 @@ function mostrarPopUpComidas(callback) {
 
   // Crear la imagen de la publicidad
   var imagenPublicidad = document.createElement("img");
-  imagenPublicidad.src = "../assets/PopUpComidas.jpg"; // Reemplaza con la URL de tu imagen
+  imagenPublicidad.src = "./assets/PopUpComidas.jpg"; // Reemplaza con la URL de tu imagen
   ventanaEmergente.appendChild(imagenPublicidad);
 
   // Crear el botón para cerrar la ventana emergente

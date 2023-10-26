@@ -39,12 +39,19 @@ body {
   10% {
     transform: translate(-50%, -50%) scale(1.9) rotate(0deg);
     opacity: 1;
+    animation-timing-function: steps(1, end); /* Detiene la animación en 1.9 */
+  }
+  20% {
+    transform: translate(-50%, -50%) scale(1.9) rotate(0deg);
+    opacity: 1;
+    animation-timing-function: ease-in; /* Continúa con una pausa de 2 segundos */
   }
   100% {
     transform: translate(-50%, -50%) scale(0) rotate(0deg);
     opacity: 0;
   }
 }
+
 
 h1 {
   font-family: "Noto Serif Makasar", serif;
