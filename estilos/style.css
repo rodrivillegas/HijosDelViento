@@ -758,3 +758,40 @@ footer p {
   font-weight: bold;
   color: rgb(223, 34, 34);
 }
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  display: flex;
+  justify-content: flex-end; /* Coloca el botón "Admin" en la esquina superior derecha */
+  padding: 15px;
+  width: 98%;
+}
+
+/* Estilos para la lista desordenada */
+ul {
+  list-style: none; /* Elimina los marcadores de lista */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+  display: inline; /* Coloca los elementos en línea */
+}
+
+/* Estilos para el botón "Admin" */
+.admin-button a {
+  color: #fff; /* Color del texto */
+  text-decoration: none; /* Quita la subrayado de enlace */
+  font-weight: bold; /* Texto en negrita */
+  padding: 5px 10px; /* Espaciado interno del botón */
+  border: 2px solid #fff; /* Borde del botón */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón "Admin" al pasar el mouse */
+.admin-button a:hover {
+  background-color: #fff; /* Cambia el color de fondo al pasar el mouse */
+  color: #333; /* Cambia el color del texto al pasar el mouse */
+}
