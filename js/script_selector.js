@@ -181,10 +181,14 @@ function solicitarContrasena() {
         return false;
       }
     },
-    allowOutsideClick: () => !Swal.isLoading()
+    allowOutsideClick: () => !Swal.isLoading(),
+    customClass: {
+      popup: 'swal-custom' // Agrega la clase personalizada al cuadro de diálogo
+    }
   }).then((result) => {
     if (result.isConfirmed) {
       window.location.href = 'src/indexServidor.html'; // Redirige si la contraseña es correcta
     }
   });
 }
+

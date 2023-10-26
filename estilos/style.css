@@ -33,7 +33,7 @@ body {
 
 @keyframes spin {
   0% {
-    transform: translate(-50%, -50%) scale(1.85) rotate(0deg);
+    transform: translate(-50%, -50%) scale(1.88) rotate(0deg);
     opacity: 1;
   }
   30% {
@@ -788,3 +788,6 @@ footer p {
   color: #333; /* Cambia el color del texto al pasar el mouse */
 }
 
+.swal-custom  {
+  font-size: 1.6rem; /* Aumenta el tamaño de fuente en un 10% */
+}
