@@ -40,7 +40,7 @@ h1 {
 
 #tablaDatos th,
 #tablaDatos td {
-  border: 0.1rem solid #444;
+  border: 0.2rem solid #888;
   padding: 10px;
   text-align: center;
 }
@@ -51,6 +51,14 @@ h1 {
   top: 0;
   font-weight: bold;
   color: #fff;
+}
+#tablaDatos td {
+  border: 0.05rem dashed #888;
+}
+
+
+#tablaDatos tr {
+  border: 0.5rem double #555;
 }
 
 /* Estilos para resaltar al pasar el cursor por encima de una fila */
