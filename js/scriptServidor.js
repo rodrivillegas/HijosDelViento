@@ -137,7 +137,7 @@ const firebaseConfig = {
     // Mostrar el total de la caja en una etiqueta div
     var totalCajaElement = document.getElementById("totalCaja");
     if (totalCajaElement) {
-      totalCajaElement.textContent = "Total de Ventas: $" + totalCaja.toFixed(2);
+      totalCajaElement.textContent = "Total de Ventas Acumulado: $" + totalCaja.toFixed(2);
     }
   });
   
