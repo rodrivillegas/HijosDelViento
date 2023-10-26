@@ -88,16 +88,15 @@ tr.selected td {
 
 /* Estilos para el botón de retorno */
 .return-button {
-  position: fixed;
-  top: 48px; /* Distancia desde la parte superior */
-  right: 35px; /* Distancia desde la derecha */
-  padding: 10px 15px; /* Espaciado interno del botón */
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px; /* Espaciado interno del botón */
   background-color: #0074d9; /* Color de fondo del botón (azul) */
   color: #fff; /* Color del texto (blanco) */
   text-decoration: none; /* Quita la subrayado de enlace */
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s; /* Transición suave del color de fondo */
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 /* Estilos para el botón de retorno al pasar el mouse */
