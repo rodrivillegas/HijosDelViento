@@ -5,15 +5,24 @@ tituloH1.classList.add("mi-clase-h1");
 
 // Crear el título h2
 var tituloH2 = document.createElement("h2");
-tituloH2.textContent = "¡¡Dejanos comentarios!! 🙂😐😔";
+tituloH2.textContent = "¡¡Dejanos comentarios!!";
 tituloH2.classList.add("mi-clase-h2");
+
+// Crear el título h2
+var tituloH3 = document.createElement("h3");
+tituloH3.textContent = "🙂😐😔";
+tituloH3.classList.add("mi-clase-h3");
 
 // Obtener el cuerpo del documento (body)
 var body = document.body;
 
 // Agregar los títulos al inicio del cuerpo
+body.insertBefore(tituloH3, body.firstChild);
+
 body.insertBefore(tituloH2, body.firstChild);
+
 body.insertBefore(tituloH1, body.firstChild);
+
 
 // Crear el botón "Home"
 var homeButton = document.createElement("div");
