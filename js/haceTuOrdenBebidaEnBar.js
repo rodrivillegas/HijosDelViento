@@ -974,7 +974,7 @@ function enviarPedido() {
         } else {
           Swal.fire({
             title: "Pedido enviado con éxito",
-            text: "El tiempo estimado de demora es de 10 min. Le agradecemos su visita y le recordamos que el personal está a su disposición.",
+            text: "¡¡Gracias por visitarnos!! El tiempo estimado de demora es de 10 min. Le agradecemos su visita y le recordamos que el personal está a su disposición 😃.",
             icon: "success",
             customClass: {
               container: "cartelConfirmaPedido",

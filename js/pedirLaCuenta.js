@@ -215,7 +215,7 @@ function enviarPedido() {
           });
         } else {
           Swal.fire({
-            title: "Recibimos su petición y la cuenta ya está en camino.",
+            title: "Recibimos su petición y la cuenta está en camino.",
             text: "¡Le agradecemos su visita!",
             icon: "success",
             customClass: {

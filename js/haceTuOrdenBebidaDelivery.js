@@ -984,7 +984,7 @@ function enviarPedido() {
         } else {
           Swal.fire({
             title: "Pedido enviado con éxito",
-            text: "Estimado cliente, el tiempo de demora es de 30 min. aprox. Estamos orgullosos que nos elija y lo esperamos nuevamente muy pronto 😀.",
+            text: "Estimado cliente, gracias por elegirnos! El tiempo de demora es de 30 min. aprox. Estamos a su disposición 😀.",
             icon: "success",
             customClass: {
               container: "cartelConfirmaPedido",
