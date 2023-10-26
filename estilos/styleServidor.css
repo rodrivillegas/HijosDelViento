@@ -89,17 +89,17 @@ tr.selected td {
 /* Estilos para el botón de retorno */
 .return-button {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   padding: 10px 10px; /* Espaciado interno del botón */
-  background-color: #0074d9; /* Color de fondo del botón (azul) */
   color: #fff; /* Color del texto (blanco) */
   text-decoration: none; /* Quita la subrayado de enlace */
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s; /* Transición suave del color de fondo */
   font-size: 1.5rem;
+  color: red;
 }
 
 /* Estilos para el botón de retorno al pasar el mouse */
 .return-button:hover {
-  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse (azul más oscuro) */
+  background-color: #8abaee; /* Cambia el color de fondo al pasar el mouse (azul más oscuro) */
 }
