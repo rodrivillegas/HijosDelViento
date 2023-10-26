@@ -37,12 +37,12 @@ body {
     opacity: 1;
   }
   30% {
-    transform: translate(-50%, -50%) scale(1.95) rotate(0deg);
+    transform: translate(-50%, -50%) scale(1.92) rotate(0deg);
     opacity: 1;
     animation-timing-function: steps(1, end); /* Detiene la animación en 1.95 */
   }
   70% {
-    transform: translate(-50%, -50%) scale(1.95) rotate(0deg);
+    transform: translate(-50%, -50%) scale(1.92) rotate(0deg);
     opacity: 1;
     animation-timing-function: ease-in; /* Transición rápida hasta desaparecer */
   }
@@ -516,7 +516,7 @@ select.opciones {
 #homeButton {
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: #fff;
   background-color: red; /* Color de discoteca */
   border: 2px solid #fff;
@@ -528,6 +528,8 @@ select.opciones {
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 5rem;
+  width: 32%;
+  text-align: center;
 }
 
 footer {
