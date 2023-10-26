@@ -5,7 +5,7 @@ tituloH1.classList.add("mi-clase-h1");
 
 // Crear el título h2
 var tituloH2 = document.createElement("h2");
-tituloH2.textContent = "Completa a continuación";
+tituloH2.textContent = "Dejanos comentarios!! 🙂😐😔";
 tituloH2.classList.add("mi-clase-h2");
 
 // Obtener el cuerpo del documento (body)
