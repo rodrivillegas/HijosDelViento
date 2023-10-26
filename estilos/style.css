@@ -18,7 +18,7 @@ body {
 
 #animation-container {
   position: fixed;
-  top: 40%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -763,9 +763,8 @@ footer p {
   background-color: #333; /* Color de fondo de la barra de navegación */
   display: flex;
   justify-content: flex-end; /* Coloca el botón "Admin" en la esquina superior derecha */
-  width: 95%;
+  width: 100%;
 }
-
 
 /* Estilos para el botón "Admin" */
 .admin-button a {
@@ -775,11 +774,12 @@ footer p {
   padding: 5px 10px; /* Espaciado interno del botón */
   border: 2px solid #fff; /* Borde del botón */
   border-radius: 5px; /* Bordes redondeados */
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
   width: 10%;
   text-align: center;
   margin-right: 3rem;
+  font-size: 1.8rem;
 }
 
 /* Estilos para el botón "Admin" al pasar el mouse */
