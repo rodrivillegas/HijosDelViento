@@ -36,21 +36,23 @@ body {
     transform: translate(-50%, -50%) scale(1.9) rotate(0deg);
     opacity: 1;
   }
-  10% {
+  30% {
     transform: translate(-50%, -50%) scale(1.95) rotate(0deg);
     opacity: 1;
-    animation-timing-function: steps(2, end); /* Detiene la animación en 1.9 */
+    animation-timing-function: steps(1, end); /* Detiene la animación en 1.95 */
   }
-  20% {
+  70% {
     transform: translate(-50%, -50%) scale(1.95) rotate(0deg);
     opacity: 1;
-    animation-timing-function: ease-in; /* Continúa con una pausa de 2 segundos */
+    animation-timing-function: ease-in; /* Transición rápida hasta desaparecer */
   }
   100% {
     transform: translate(-50%, -50%) scale(0) rotate(0deg);
     opacity: 0;
   }
 }
+
+
 
 
 h1 {
