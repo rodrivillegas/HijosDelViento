@@ -540,7 +540,7 @@ select.opciones {
 }
 
 footer {
-  background-color: #666666;
+  background-color: #444444;
   color: #ffffff;
   padding: 0.6rem;
   text-align: center;
@@ -760,7 +760,7 @@ footer p {
 }
 
 .admin-button {
-  background-color: #666666; /* Color de fondo de la barra de navegación */
+  background-color: #444444; /* Color de fondo de la barra de navegación */
   display: flex;
   justify-content: flex-end; /* Coloca el botón "Admin" en la esquina superior derecha */
   width: 100%;
@@ -774,9 +774,9 @@ footer p {
   padding: 5px 10px; /* Espaciado interno del botón */
   border: 2px solid #fff; /* Borde del botón */
   border-radius: 5px; /* Bordes redondeados */
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
-  width: 10%;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  width: 15%;
   text-align: center;
   margin-right: 3rem;
   font-size: 1.8rem;
