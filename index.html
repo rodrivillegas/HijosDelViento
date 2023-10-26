@@ -18,7 +18,7 @@
       <img id="logo" src="assets/fondoHDV.png" alt="Logo" />
     </div>
 
-    <div class="admin-button">
+    <div class="admin-button" id="adminButton">
       <a href="src/indexServidor.html">Admin</a>
     </div>
 
@@ -34,33 +34,33 @@
       <h2 class="h2subtitulo">Estoy en el Bar 🍻</h2>
       <button
         class="haceTuOrdenComidaEnBar"
-        onclick="mostrarOpciones('haceTuOrdenComidaEnBar')"
+        onclick="mostrarOpciones('haceTuOrdenComidaEnBar'); ocultarAdminButton();"
       >
         CARTA DE COMIDAS
       </button>
       <button
         class="haceTuOrdenBebida"
-        onclick="mostrarOpciones('haceTuOrdenBebidaEnBar')"
+        onclick="mostrarOpciones('haceTuOrdenBebidaEnBar'); ocultarAdminButton();"
       >
         CARTA DE BEBIDAS
       </button>
-      <button class="llamarAlMozo" onclick="mostrarOpciones('llamarAlMozo')">
+      <button class="llamarAlMozo" onclick="mostrarOpciones('llamarAlMozo'); ocultarAdminButton();">
         LLAMA AL MOZO
       </button>
-      <button class="pedirLaCuenta" onclick="mostrarOpciones('pedirLaCuenta')">
+      <button class="pedirLaCuenta" onclick="mostrarOpciones('pedirLaCuenta'); ocultarAdminButton();">
         PEDI LA CUENTA
       </button>
 
       <h2 class="h2subtituloDelivery">Para llevar o retirar 🛵</h2>
       <button
         class="haceTuOrdenComidaDelivery"
-        onclick="mostrarOpciones('haceTuOrdenComidaDelivery')"
+        onclick="mostrarOpciones('haceTuOrdenComidaDelivery'); ocultarAdminButton();"
       >
         DELIVERY DE COMIDA
       </button>
       <button
         class="haceTuOrdenBebidaDelivery"
-        onclick="mostrarOpciones('haceTuOrdenBebidaDelivery')"
+        onclick="mostrarOpciones('haceTuOrdenBebidaDelivery'); ocultarAdminButton();"
       >
         DELIVERY DE BEBIDA
       </button>
@@ -201,6 +201,7 @@
       <p>© 2023 HIJOS DEL VIENTO On-line. Todos los derechos reservados.</p>
       <p>Pedro C. Molina 393 - Almafuerte - Tel (0351) 765-8461.</p>
     </footer>
+
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -210,5 +211,11 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/script_selector.js"></script>
+    <script>
+      function ocultarAdminButton() {
+        var adminButton = document.getElementById("adminButton");
+        adminButton.style.display = "none"; // Oculta el botón "Admin"
+      }
+    </script>
   </body>
 </html>
