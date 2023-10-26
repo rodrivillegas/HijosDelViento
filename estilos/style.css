@@ -694,8 +694,8 @@ footer p {
 
 .ventana-emergenteBebidas {
   position: fixed;
-  top: 30%;
-  left: 12%;
+  top: 18%;
+  left: 20%;
   transform: translate(-50%, -50%);
   background-color: white;
   border: 2px solid #000;
