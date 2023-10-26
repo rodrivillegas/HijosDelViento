@@ -161,3 +161,30 @@ function mostrarPopUpComidasDelivery(callback) {
   // Agregar la ventana emergente al cuerpo del documento
   document.body.appendChild(ventanaEmergente);
 }
+
+function solicitarContrasena() {
+  Swal.fire({
+    title: 'Ingrese la contraseña',
+    input: 'password',
+    inputAttributes: {
+      autocapitalize: 'off'
+    },
+    showCancelButton: true,
+    confirmButtonText: 'Acceder',
+    showLoaderOnConfirm: true,
+    preConfirm: (contrasena) => {
+      // Comprueba si la contraseña es correcta
+      if (contrasena === 'Lucas') { // Reemplaza 'tucontrasena' con la contraseña deseada
+        return true;
+      } else {
+        Swal.showValidationMessage('Contraseña incorrecta. Acceso denegado.');
+        return false;
+      }
+    },
+    allowOutsideClick: () => !Swal.isLoading()
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.href = 'src/indexServidor.html'; // Redirige si la contraseña es correcta
+    }
+  });
+}
