@@ -91,7 +91,7 @@ const productosJSON = `
       "nombre": "PAPAS CON CHEDDAR",
       "descripcion": "Panceta ahumada + Lactonesa casera",
       "precio": 1900,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasPancetaCebolla.jpg"
     },
     {
       "categoria": "ENTRADAS",
@@ -371,7 +371,7 @@ const productosJSON = `
       "nombre": "FAJITAS",
       "descripcion": "2 tacos carne de lomo + Pimientos asados + Cebolla.",
       "precio": 4300,
-      "imagen": "./assets/Tacos.jpg"
+      "imagen": "./assets/fajitas.jpg"
     },
     {
       "categoria": "COMIDA MEXICANA",
