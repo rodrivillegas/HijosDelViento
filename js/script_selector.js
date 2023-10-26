@@ -60,7 +60,7 @@ function mostrarOpciones(tipo) {
       mostrarBotonIrAlFinal
     );
   } else if (tipo === "llamarAlMozo") {
-    cargarScript("./js/llamarAlMozo.js");
+    cargarScript("./js/llamarAlMozo.js", mostrarVentanaEmergente);
   } else if (tipo === "pedirLaCuenta") {
     var botonComentarios = document.getElementById("btnComentarios");
     botonComentarios.classList.add("mostrar");
@@ -74,4 +74,29 @@ function cargarScript(url, callback) {
   script.src = url;
   script.onload = callback; // Llamar a la función cuando el script esté cargado
   document.head.appendChild(script);
+}
+
+// Función para mostrar la ventana emergente
+function mostrarVentanaEmergente() {
+  console.log("Función mostrarVentanaEmergente llamada"); // Agrega este console.log
+
+  // Crear el div para la ventana emergente
+  var ventanaEmergente = document.createElement("div");
+  ventanaEmergente.classList.add("ventana-emergente");
+
+  // Crear la imagen de la publicidad
+  var imagenPublicidad = document.createElement("img");
+  imagenPublicidad.src = "../assets/fondoHDV.jpg"; // Reemplaza con la URL de tu imagen
+  ventanaEmergente.appendChild(imagenPublicidad);
+
+  // Crear el botón para cerrar la ventana emergente
+  var cerrarBoton = document.createElement("button");
+  cerrarBoton.textContent = "Cerrar";
+  cerrarBoton.addEventListener("click", function () {
+    ventanaEmergente.style.display = "none";
+  });
+  ventanaEmergente.appendChild(cerrarBoton);
+
+  // Agregar la ventana emergente al cuerpo del documento
+  document.body.appendChild(ventanaEmergente);
 }
