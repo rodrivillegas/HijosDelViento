@@ -119,14 +119,6 @@ const productosJSON = `
     },
     {
       "categoria": "CERVEZA",
-      "genero": "IMPERIAL",
-      "nombre": "IMPERIAL GOLDEN 1L",
-      "descripcion": "",
-      "precio": 1500,
-      "imagen": "./assets/ImperialGolden1L.png"
-    },
-    {
-      "categoria": "CERVEZA",
       "genero": "HEINEKEN",
       "nombre": "HEINEKEN 1L",
       "descripcion": "",
@@ -151,22 +143,6 @@ const productosJSON = `
     },
     {
       "categoria": "CERVEZA",
-      "genero": "MILLER",
-      "nombre": "MILLER 1L",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Miller1L.png"
-    },
-    {
-      "categoria": "CERVEZA",
-      "genero": "MONJITA",
-      "nombre": "MILLER 330cm3.",
-      "descripcion": "",
-      "precio": 900,
-      "imagen": "./assets/Miller330cc.png"
-    },
-    {
-      "categoria": "CERVEZA",
       "genero": "MONJITA",
       "nombre": "HEINEKEN 330cm3.",
       "descripcion": "",
@@ -176,15 +152,15 @@ const productosJSON = `
     {
       "categoria": "CERVEZA",
       "genero": "MONJITA",
-      "nombre": "HEINEKEN S/ALCOHOL 330cm3.",
+      "nombre": "SOL 330cm3.",
       "descripcion": "",
       "precio": 900,
-      "imagen": "./assets/HeinekenSA330cc.png"
+      "imagen": "./assets/Sol330cc.png"
     },
     {
       "categoria": "SIN ALCOHOL",
       "genero": "GASEOSAS",
-      "nombre": "GASEOSAS 350cc. (elije el sabor en los comentarios)",
+      "nombre": "GASEOSAS 350cc. (elige el sabor en los comentarios)",
       "descripcion": "",
       "precio": 900,
       "imagen": "./assets/Gaseosa.png"
@@ -192,7 +168,7 @@ const productosJSON = `
     {
       "categoria": "SIN ALCOHOL",
       "genero": "AGUA SABORIZADA",
-      "nombre": "AGUA SABORIZADA 500cc. (elije el sabor en los comentarios)",
+      "nombre": "AGUA SABORIZADA 500cc. (elige el sabor en los comentarios)",
       "descripcion": "",
       "precio": 900,
       "imagen": "./assets/AguaSaborizada500cc.png"
@@ -209,7 +185,7 @@ const productosJSON = `
       "categoria": "SIN ALCOHOL",
       "genero": "LIMONADA",
       "nombre": "LIMONADA",
-      "descripcion": "",
+      "descripcion": "Limón + Jengibre + Pepino + Menta",
       "precio": 900,
       "imagen": "./assets/Limonada.png"
     },
@@ -231,7 +207,7 @@ const productosJSON = `
     },
     {
       "categoria": "TRAGOS",
-      "genero": "APEROL + SODA",
+      "genero": "APEROL",
       "nombre": "APEROL",
       "descripcion": "",
       "precio": 900,
@@ -320,7 +296,7 @@ const productosJSON = `
     {
       "categoria": "TRAGOS",
       "genero": "QUE ME LLEVE EL VIENTO",
-      "nombre": "GINEBRA NEGRA + VODKA + LIMON + SPRITE",
+      "nombre": "GINEBRA + VODKA + LIMON + SPRITE",
       "descripcion": "",
       "precio": 900,
       "imagen": "./assets/GinebraVodkaLimon.png"

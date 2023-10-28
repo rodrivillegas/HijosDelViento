@@ -89,7 +89,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS CON CHEDDAR",
-      "descripcion": "Panceta ahumada + Lactonesa casera",
+      "descripcion": "Panceta ahumada + Verdeo",
       "precio": 1900,
       "imagen": "./assets/papasPancetaCebolla.jpg"
     },
@@ -97,7 +97,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS HIJOS DEL VIENTO",
-      "descripcion": "Salsa criolla + Lactonesa casera",
+      "descripcion": "Salsa criolla + Mayonesa casera",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -105,23 +105,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "PAPAS",
       "nombre": "PAPAS MEXICANAS",
-      "descripcion": "Con chimi casero",
-      "precio": 1900,
-      "imagen": "./assets/PapasFritas.jpg"
-    },
-    {
-      "categoria": "ENTRADAS",
-      "genero": "PAPAS",
-      "nombre": "PAPAS CON KETCHUP",
-      "descripcion": "",
-      "precio": 1900,
-      "imagen": "./assets/PapasFritas.jpg"
-    },
-    {
-      "categoria": "ENTRADAS",
-      "genero": "PAPAS",
-      "nombre": "PAPAS CON BARBACOA Y CRUDO",
-      "descripcion": "",
+      "descripcion": "Chimi casero",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -129,7 +113,7 @@ const productosJSON = `
       "categoria": "ENTRADAS",
       "genero": "NUGGETS",
       "nombre": "NUGGETS DE POLLO",
-      "descripcion": "",
+      "descripcion": "12Uni + Papas fritas",
       "precio": 1900,
       "imagen": "./assets/PapasFritas.jpg"
     },
@@ -280,7 +264,7 @@ const productosJSON = `
     {
       "categoria": "BAGUETTE",
       "genero": "SANDWHICHES (c/ FRITAS)",
-      "nombre": "BAGUETTE DE RUCULA + TOMAT + JAMON + QUESO",
+      "nombre": "BAGUETTE DE RUCULA + TOMATE + JAMON + QUESO",
       "descripcion": "",
       "precio": 2700,
       "imagen": "./assets/Baguette.jpg"
@@ -472,25 +456,25 @@ const productosJSON = `
     {
       "categoria": "POSTRES",
       "genero": "POSTRES",
-      "nombre": "CASATTA",
-      "descripcion": "",
-      "precio": 2200,
-      "imagen": "./assets/BudinPan.jpg"
-    },
-    {
-      "categoria": "POSTRES",
-      "genero": "POSTRES",
-      "nombre": "VIGILANTE",
-      "descripcion": "",
-      "precio": 2900,
-      "imagen": "./assets/BudinPan.jpg"
-    },
-    {
-      "categoria": "POSTRES",
-      "genero": "POSTRES",
       "nombre": "FLAN CASERO",
       "descripcion": "",
       "precio": 2900,
+      "imagen": "./assets/BudinPan.jpg"
+    },
+    {
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "CAMIONERO",
+      "descripcion": "Queso + Dulce",
+      "precio": 2900,
+      "imagen": "./assets/BudinPan.jpg"
+    },
+    {
+      "categoria": "POSTRES",
+      "genero": "POSTRES",
+      "nombre": "BUDIN DE PAN",
+      "descripcion": "",
+      "precio": 2200,
       "imagen": "./assets/BudinPan.jpg"
     },
     {
