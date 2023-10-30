@@ -165,7 +165,7 @@ function mostrarPopUpComidasDelivery(callback) {
 function mostrarPopUpInicio(imagenes, callback) {
   // Crear el div para la ventana emergente
   var ventanaEmergente = document.createElement("div");
-  ventanaEmergente.classList.add("ventana-emergenteComida");
+  ventanaEmergente.classList.add("ventana-emergenteInicio");
 
   // Generar un índice aleatorio para seleccionar una imagen
   var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
