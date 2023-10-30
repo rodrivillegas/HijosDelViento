@@ -117,7 +117,7 @@ function mostrarPopUpComidasBar(callback) {
 
   // Crear la imagen de la publicidad
   var imagenPublicidad = document.createElement("img");
-  imagenPublicidad.src = "./assets/comeBienPubli.jpg"; // Reemplaza con la URL de tu imagen
+  imagenPublicidad.src = "./assets/ComeRicoPubli.jpg"; // Reemplaza con la URL de tu imagen
   ventanaEmergente.appendChild(imagenPublicidad);
 
   // Crear el botón para cerrar la ventana emergente
@@ -143,7 +143,7 @@ function mostrarPopUpComidasDelivery(callback) {
 
   // Crear la imagen de la publicidad
   var imagenPublicidad = document.createElement("img");
-  imagenPublicidad.src = "./assets/PopUpComidas.jpg"; // Reemplaza con la URL de tu imagen
+  imagenPublicidad.src = "./assets/AbiertoPubli.jpg"; // Reemplaza con la URL de tu imagen
   ventanaEmergente.appendChild(imagenPublicidad);
 
   // Crear el botón para cerrar la ventana emergente
@@ -161,6 +161,49 @@ function mostrarPopUpComidasDelivery(callback) {
   // Agregar la ventana emergente al cuerpo del documento
   document.body.appendChild(ventanaEmergente);
 }
+
+function mostrarPopUpInicio(imagenes, callback) {
+  // Crear el div para la ventana emergente
+  var ventanaEmergente = document.createElement("div");
+  ventanaEmergente.classList.add("ventana-emergenteComida");
+
+  // Generar un índice aleatorio para seleccionar una imagen
+  var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
+  
+  // Crear la imagen de la publicidad con la URL seleccionada aleatoriamente
+  var imagenPublicidad = document.createElement("img");
+  imagenPublicidad.src = imagenes[indiceAleatorio];
+  ventanaEmergente.appendChild(imagenPublicidad);
+
+  // Crear el botón para cerrar la ventana emergente
+  var cerrarBoton = document.createElement("button");
+  cerrarBoton.textContent = "Cerrar";
+  cerrarBoton.addEventListener("click", function () {
+    ventanaEmergente.style.display = "none";
+    // Ejecutar el callback después de cerrar la ventana emergente
+    if (typeof callback === "function") {
+      callback();
+    }
+  });
+  ventanaEmergente.appendChild(cerrarBoton);
+
+  // Agregar la ventana emergente al cuerpo del documento
+  document.body.appendChild(ventanaEmergente);
+}
+
+// Ejemplo de uso
+var imagenesPopUp = [
+  "./assets/comeBienPubli.jpg",
+  "./assets/BuenaGentePubli.jpg",
+  "./assets/NoTeComasCualquieraPubli.jpg",
+  "./assets/PopUpComidas.jpg",
+  "./assets/ComeRicoMilaPubli.jpg",
+
+  // Agrega aquí más URL de imágenes
+];
+
+mostrarPopUpInicio(imagenesPopUp);
+
 
 function solicitarContrasena() {
   Swal.fire({

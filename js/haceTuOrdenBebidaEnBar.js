@@ -82,7 +82,7 @@ const productosJSON = `
       "genero": "IMPERIAL",
       "nombre": "IMPERIAL LAGER 1L",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2100,
       "imagen": "./assets/ImperialLager1L.png"
     },
     {
@@ -90,7 +90,7 @@ const productosJSON = `
       "genero": "IMPERIAL",
       "nombre": "IMPERIAL ROJA 1L",
       "descripcion": "",
-      "precio": 1600,
+      "precio": 2100,
       "imagen": "./assets/ImperialAmberLager1L.png"
     },
     {
@@ -98,7 +98,7 @@ const productosJSON = `
       "genero": "IMPERIAL",
       "nombre": "IMPERIAL IPA 1L",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2100,
       "imagen": "./assets/ImperialIpa1L.png"
     },
     {
@@ -106,7 +106,7 @@ const productosJSON = `
       "genero": "IMPERIAL",
       "nombre": "IMPERIAL APA 1L",
       "descripcion": "",
-      "precio": 1600,
+      "precio": 2100,
       "imagen": "./assets/ImperialApa1L.png"
     },
     {
@@ -114,7 +114,7 @@ const productosJSON = `
       "genero": "IMPERIAL",
       "nombre": "IMPERIAL NEGRA 1L",
       "descripcion": "",
-      "precio": 800,
+      "precio": 2100,
       "imagen": "./assets/ImperialNegra1L.png"
     },
     {
@@ -122,7 +122,7 @@ const productosJSON = `
       "genero": "HEINEKEN",
       "nombre": "HEINEKEN 1L",
       "descripcion": "",
-      "precio": 700,
+      "precio": 2500,
       "imagen": "./assets/Heineken1L.png"
     },
     {
@@ -130,7 +130,7 @@ const productosJSON = `
       "genero": "GROLSCH",
       "nombre": "GROLSCH 1L",
       "descripcion": "",
-      "precio": 700,
+      "precio": 2500,
       "imagen": "./assets/Grolsch1L.png"
     },
     {
@@ -138,7 +138,7 @@ const productosJSON = `
       "genero": "SOL",
       "nombre": "SOL 710cc.",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2500,
       "imagen": "./assets/Sol1L.png"
     },
     {
@@ -146,7 +146,7 @@ const productosJSON = `
       "genero": "MONJITA",
       "nombre": "HEINEKEN 330cm3.",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1100,
       "imagen": "./assets/Heineken330cc.png"
     },
     {
@@ -154,7 +154,7 @@ const productosJSON = `
       "genero": "MONJITA",
       "nombre": "SOL 330cm3.",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1100,
       "imagen": "./assets/Sol330cc.png"
     },
     {
@@ -162,7 +162,7 @@ const productosJSON = `
       "genero": "GASEOSAS",
       "nombre": "GASEOSAS 350cc. (elige el sabor en los comentarios)",
       "descripcion": "",
-      "precio": 900,
+      "precio": 850,
       "imagen": "./assets/Gaseosa.png"
     },
     {
@@ -170,7 +170,7 @@ const productosJSON = `
       "genero": "AGUA SABORIZADA",
       "nombre": "AGUA SABORIZADA 500cc. (elige el sabor en los comentarios)",
       "descripcion": "",
-      "precio": 900,
+      "precio": 850,
       "imagen": "./assets/AguaSaborizada500cc.png"
     },
     {
@@ -178,15 +178,23 @@ const productosJSON = `
       "genero": "AGUA SIN GAS",
       "nombre": "AGUA SIN GAS 500cc.",
       "descripcion": "",
-      "precio": 900,
+      "precio": 850,
       "imagen": "./assets/Agua500cc.png"
     },
     {
       "categoria": "SIN ALCOHOL",
       "genero": "LIMONADA",
-      "nombre": "LIMONADA",
+      "nombre": "LIMONADA 1L",
       "descripcion": "Limón + Jengibre + Pepino + Menta",
-      "precio": 900,
+      "precio": 1800,
+      "imagen": "./assets/Limonada.png"
+    },
+    {
+      "categoria": "SIN ALCOHOL",
+      "genero": "LIMONADA",
+      "nombre": "LIMONADA CHICA",
+      "descripcion": "Limón + Jengibre + Pepino + Menta",
+      "precio": 850,
       "imagen": "./assets/Limonada.png"
     },
     {
@@ -194,7 +202,7 @@ const productosJSON = `
       "genero": "FERNET BRANCA",
       "nombre": "FERNET + COCA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/FernetConCoca.png"
     },
     {
@@ -202,7 +210,7 @@ const productosJSON = `
       "genero": "GANCIA LIMON",
       "nombre": "GANCIA + LIMON",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/GanciaLimon.png"
     },
     {
@@ -210,7 +218,7 @@ const productosJSON = `
       "genero": "APEROL",
       "nombre": "APEROL",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/Aperol.png"
     },
     {
@@ -218,7 +226,7 @@ const productosJSON = `
       "genero": "CAMPARI",
       "nombre": "CAMPARI + NARANJA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/Campari.png"
     },
     {
@@ -226,7 +234,7 @@ const productosJSON = `
       "genero": "CUBA LIBRE",
       "nombre": "RON + COCA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1800,
       "imagen": "./assets/RonCoca.png"
     },
     {
@@ -234,7 +242,7 @@ const productosJSON = `
       "genero": "NEGRONI",
       "nombre": "NEGRONI",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1800,
       "imagen": "./assets/Negroni.png"
     },
     {
@@ -242,7 +250,7 @@ const productosJSON = `
       "genero": "MALIBU",
       "nombre": "MALIBU + SPRITE + LIMON",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/MalibuSpriteLimon.png"
     },
     {
@@ -250,7 +258,7 @@ const productosJSON = `
       "genero": "CAIPI MALIBU",
       "nombre": "CAIPI + MALIBU",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/CaipiMalibu.png"
     },
     {
@@ -258,7 +266,7 @@ const productosJSON = `
       "genero": "CINZANO",
       "nombre": "CINZANO + POMELO",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/CinzanoPomelo.png"
     },
     {
@@ -266,7 +274,7 @@ const productosJSON = `
       "genero": "MOJITO CUBANO",
       "nombre": "RON + LIMÓN + AZUCAR + MENTA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/Mojito.png"
     },
     {
@@ -274,7 +282,7 @@ const productosJSON = `
       "genero": "MOJITO ARANDANOS",
       "nombre": "MOJITO DE ARANDANOS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2000,
       "imagen": "./assets/MojitoArandano.png"
     },
     {
@@ -282,7 +290,7 @@ const productosJSON = `
       "genero": "MOJITO FRUTOS ROJOS",
       "nombre": "MOJITO DE FRUTOS ROJOS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2000,
       "imagen": "./assets/MojitoFrutosRojos.png"
     },
     {
@@ -290,7 +298,7 @@ const productosJSON = `
       "genero": "MOJITO CITRIC",
       "nombre": "MOJITO CITRIC",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/MojitoCitric.png"
     },
     {
@@ -298,7 +306,7 @@ const productosJSON = `
       "genero": "QUE ME LLEVE EL VIENTO",
       "nombre": "GINEBRA + VODKA + LIMON + SPRITE",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/GinebraVodkaLimon.png"
     },
     {
@@ -306,7 +314,7 @@ const productosJSON = `
       "genero": "ME LLEVA EL CHANFLE",
       "nombre": "GINEBRA NEGRA + LIMON + PASO DE LOS TOROS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/GinebraVodkaLimon.png"
     },
     {
@@ -314,7 +322,7 @@ const productosJSON = `
       "genero": "PRODAN",
       "nombre": "GINEBRA NEGRA + GIN + LIMON + COCA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/GinebraCoca.png"
     },
     {
@@ -322,7 +330,7 @@ const productosJSON = `
       "genero": "SUNSET",
       "nombre": "NARANJA FROZEN + MALIBU + CAMPARI",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2300,
       "imagen": "./assets/MalibuCampari.png"
     },
     {
@@ -330,7 +338,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN FRUTOS ROJOS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2100,
       "imagen": "./assets/GinTonicFrutosRojos.png"
     },
     {
@@ -338,7 +346,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN PEPINO / ROMERO / LIMON",
       "descripcion": "(elige en los comentarios)",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicPepino.png"
     },
     {
@@ -346,7 +354,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN HIJOS DEL VIENTO",
       "descripcion": "Citric + Botánico + Romero",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicRomero.png"
     },
     {
@@ -354,7 +362,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN CITRIC",
       "descripcion": "Naranja + Pomelo + Limón",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicPomelo.png"
     },
     {
@@ -362,7 +370,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN ARANDANOS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicArandanos.png"
     },
     {
@@ -370,7 +378,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN FRUTILLA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicFrutilla.png"
     },
     {
@@ -378,7 +386,7 @@ const productosJSON = `
       "genero": "GINTONERIA",
       "nombre": "GIN BOTANICO",
       "descripcion": "Canela + Clavo de Olor + Anis estrellado + Pimienta de jamaica",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/GinTonicBotanico.png"
     },
     {
@@ -386,7 +394,7 @@ const productosJSON = `
       "genero": "LO NUEVO",
       "nombre": "MINT TONIC",
       "descripcion": "Branca menta + Tónica",
-      "precio": 900,
+      "precio": 1600,
       "imagen": "./assets/BrancaMentaTonica.png"
     },
     {
@@ -394,7 +402,7 @@ const productosJSON = `
       "genero": "LO NUEVO",
       "nombre": "CAIPIROSKA",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2000,
       "imagen": "./assets/Caipiroska.png"
     },
     {
@@ -402,7 +410,7 @@ const productosJSON = `
       "genero": "LO NUEVO",
       "nombre": "CAIPIROSKA FRUTOS ROJOS",
       "descripcion": "",
-      "precio": 900,
+      "precio": 2200,
       "imagen": "./assets/CaipiFrutilla.png"
     },
     {
@@ -410,7 +418,7 @@ const productosJSON = `
       "genero": "LO NUEVO",
       "nombre": "CYNAR JULEPE",
       "descripcion": "Cynar + Almibar + Menta + Jugo de Pomelo",
-      "precio": 900,
+      "precio": 1900,
       "imagen": "./assets/CynarJulepe.png"
     }
   ]

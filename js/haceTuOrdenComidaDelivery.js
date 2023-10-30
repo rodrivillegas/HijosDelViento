@@ -82,7 +82,7 @@ const productosJSON = `
       "genero": "PAPAS",
       "nombre": "PAPAS CLASICAS",
       "descripcion": "",
-      "precio": 1900,
+      "precio": 2600,
       "imagen": "./assets/PapasFritas.jpg"
     },
     {
@@ -90,7 +90,7 @@ const productosJSON = `
       "genero": "PAPAS",
       "nombre": "PAPAS CON CHEDDAR",
       "descripcion": "Panceta ahumada + Verdeo",
-      "precio": 1900,
+      "precio": 3200,
       "imagen": "./assets/papasPancetaCebolla.jpg"
     },
     {
@@ -98,7 +98,7 @@ const productosJSON = `
       "genero": "PAPAS",
       "nombre": "PAPAS HIJOS DEL VIENTO",
       "descripcion": "Salsa criolla + Mayonesa casera",
-      "precio": 1900,
+      "precio": 3000,
       "imagen": "./assets/PapasFritas.jpg"
     },
     {
@@ -106,7 +106,7 @@ const productosJSON = `
       "genero": "PAPAS",
       "nombre": "PAPAS MEXICANAS",
       "descripcion": "Chimi casero",
-      "precio": 1900,
+      "precio": 3000,
       "imagen": "./assets/PapasFritas.jpg"
     },
     {
@@ -114,7 +114,7 @@ const productosJSON = `
       "genero": "NUGGETS",
       "nombre": "NUGGETS DE POLLO",
       "descripcion": "12Uni + Papas fritas",
-      "precio": 1900,
+      "precio": 3500,
       "imagen": "./assets/PapasFritas.jpg"
     },
     {
@@ -122,7 +122,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA COMPLETA",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
-      "precio": 2800,
+      "precio": 3200,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -130,7 +130,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
-      "precio": 2800,
+      "precio": 3500,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -138,7 +138,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA MEXICANA",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
-      "precio": 2800,
+      "precio": 3500,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -146,7 +146,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
-      "precio": 2800,
+      "precio": 3500,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -154,7 +154,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
-      "precio": 2800,
+      "precio": 3500,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -162,7 +162,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA CUATRO QUESOS",
       "descripcion": "Variedad de quesos + Lechuga + Tomate + Jamón + Huevo",
-      "precio": 2800,
+      "precio": 3500,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -170,7 +170,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "HAMBURGUESA VEGETARIANA",
       "descripcion": "Medallón vegetariano + Rúcula + Tomate + Huevo + pimientos asados",
-      "precio": 2800,
+      "precio": 3000,
       "imagen": "./assets/Hamburguesa.jpg"
     },
     {
@@ -178,7 +178,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO COMPLETO",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
-      "precio": 2700,
+      "precio": 3400,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -186,7 +186,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
-      "precio": 2700,
+      "precio": 3700,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -194,7 +194,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO MEXICANO",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
-      "precio": 2700,
+      "precio": 3700,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -202,7 +202,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
-      "precio": 2700,
+      "precio": 3700,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -210,7 +210,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
-      "precio": 2700,
+      "precio": 3700,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -218,7 +218,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "LOMO CUATRO QUESOS",
       "descripcion": "Variedad de Quesos + Lechuga + Tomate + Jamón + Huevo",
-      "precio": 2700,
+      "precio": 3700,
       "imagen": "./assets/Lomo.jpg"
     },
     {
@@ -226,7 +226,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3500,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -234,7 +234,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3100,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -242,7 +242,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE SUPREMA",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3500,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -250,7 +250,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE MILANESA DE PECETO",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3500,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -258,7 +258,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE PALTA + TOMATE + JAMON + QUESO",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3500,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -266,7 +266,7 @@ const productosJSON = `
       "genero": "SANDWHICHES (c/ FRITAS)",
       "nombre": "BAGUETTE DE RUCULA + TOMATE + JAMON + QUESO",
       "descripcion": "",
-      "precio": 2700,
+      "precio": 3100,
       "imagen": "./assets/Baguette.jpg"
     },
     {
@@ -274,7 +274,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "MILANESA AL LIMON",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -282,7 +282,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "MILANESA A LA NAPOLITANA",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -290,7 +290,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "MILANESA 3 QUESOS",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -298,7 +298,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "MILANESA AL ROQUEFORT",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -306,7 +306,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "SUPREMA AL LIMON",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -314,7 +314,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "SUPREMA A LA NAPOLITANA",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -322,7 +322,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "SUPREMA AL ROQUEFORT",
       "descripcion": "",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -330,7 +330,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "SUPREMA 3 QUESOS",
       "descripcion": "Con + Pimientos Asados",
-      "precio": 4500,
+      "precio": 3700,
       "imagen": "./assets/Milanesa.jpg"
     },
     {
@@ -338,7 +338,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "TABLA MILANESAS LA ORIGINAL",
       "descripcion": "6 variedades de milanesas de peceto + Rúcula + Crudo + Parmesano.",
-      "precio": 4400,
+      "precio": 7900,
       "imagen": "./assets/TablaMilanesas.jpg"
     },
     {
@@ -346,7 +346,7 @@ const productosJSON = `
       "genero": "MINUTAS (c/ FRITAS o ENSALADA)",
       "nombre": "TABLA DE MILANESAS MIXTA",
       "descripcion": "3 milanesas de peceto + 3 milanesas de pollo + Rúcula + Crudo + Parmesano.",
-      "precio": 4400,
+      "precio": 7500,
       "imagen": "./assets/TablaMilanesas.jpg"
     },
     {
@@ -354,7 +354,7 @@ const productosJSON = `
       "genero": "MEXICAN FOOD (c/ FRITAS)",
       "nombre": "FAJITAS",
       "descripcion": "2 tacos carne de lomo + Pimientos asados + Cebolla.",
-      "precio": 4300,
+      "precio": 3400,
       "imagen": "./assets/fajitas.jpg"
     },
     {
@@ -362,7 +362,7 @@ const productosJSON = `
       "genero": "MEXICAN FOOD (c/ FRITAS)",
       "nombre": "QUESADILLAS",
       "descripcion": "2 tacos + Jamón + Muzza.",
-      "precio": 4300,
+      "precio": 3100,
       "imagen": "./assets/Tacos.jpg"
     },
     {
@@ -370,7 +370,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA MUZZARELLA",
       "descripcion": "Salsa + Muzzarella + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -378,7 +378,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA ESPECIAL",
       "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -386,7 +386,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA NAPOLITANA",
       "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -394,7 +394,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA NAPO + ALBAHACA",
       "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -402,7 +402,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA ROQUEFORT",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -410,7 +410,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA ROQUEFORT + MORRONES",
       "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -418,7 +418,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA VERDURAS AL WOK",
       "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -426,7 +426,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "FAJIPIZZA",
       "descripcion": "Salsa + Muzzarella + Pimientos al wok + Carne de lomo desmenuzada",
-      "precio": 4300,
+      "precio": 5400,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -434,7 +434,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA RUCULA",
       "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -442,7 +442,7 @@ const productosJSON = `
       "genero": "PIZZA",
       "nombre": "PIZZA 3 QUESOS",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
-      "precio": 4300,
+      "precio": 4950,
       "imagen": "./assets/Pizza.jpg"
     },
     {
@@ -450,7 +450,7 @@ const productosJSON = `
       "genero": "POSTRES",
       "nombre": "BOMBON ESCOSES",
       "descripcion": "",
-      "precio": 2500,
+      "precio": 1600,
       "imagen": "./assets/BudinPan.jpg"
     },
     {
@@ -458,7 +458,7 @@ const productosJSON = `
       "genero": "POSTRES",
       "nombre": "FLAN CASERO",
       "descripcion": "",
-      "precio": 2900,
+      "precio": 1200,
       "imagen": "./assets/BudinPan.jpg"
     },
     {
@@ -466,7 +466,7 @@ const productosJSON = `
       "genero": "POSTRES",
       "nombre": "CAMIONERO",
       "descripcion": "Queso + Dulce",
-      "precio": 2900,
+      "precio": 1200,
       "imagen": "./assets/BudinPan.jpg"
     },
     {
@@ -474,7 +474,7 @@ const productosJSON = `
       "genero": "POSTRES",
       "nombre": "BUDIN DE PAN",
       "descripcion": "",
-      "precio": 2200,
+      "precio": 1200,
       "imagen": "./assets/BudinPan.jpg"
     },
     {
@@ -482,8 +482,8 @@ const productosJSON = `
       "genero": "SUGERENCIA DEL DIA",
       "nombre": "SUGERENCIA",
       "descripcion": "",
-      "precio": 1800,
-      "imagen": "./assets/CafeConLeche.jpg"
+      "precio": "",
+      "imagen": ""
     }
   ]
 }
