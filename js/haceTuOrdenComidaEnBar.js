@@ -83,7 +83,7 @@ const productosJSON = `
       "nombre": "PAPAS CLASICAS",
       "descripcion": "",
       "precio": 2600,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasFritas.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -91,7 +91,7 @@ const productosJSON = `
       "nombre": "PAPAS CON CHEDDAR",
       "descripcion": "Panceta ahumada + Verdeo",
       "precio": 3200,
-      "imagen": "./assets/papasPancetaCebolla.jpg"
+      "imagen": "./assets/papasCheedar1.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -99,7 +99,7 @@ const productosJSON = `
       "nombre": "PAPAS HIJOS DEL VIENTO",
       "descripcion": "Salsa criolla + Mayonesa casera",
       "precio": 3000,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/PapasCheedar.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -107,7 +107,7 @@ const productosJSON = `
       "nombre": "PAPAS MEXICANAS",
       "descripcion": "Chimi casero",
       "precio": 3000,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasChimi.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -115,7 +115,7 @@ const productosJSON = `
       "nombre": "NUGGETS DE POLLO",
       "descripcion": "12Uni + Papas fritas",
       "precio": 3500,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/nugget.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -123,7 +123,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA COMPLETA",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3200,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCompleta.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -131,7 +131,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCheddar.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -139,7 +139,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA MEXICANA",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaMexicana.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -147,7 +147,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaRoquefort.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -155,7 +155,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaRucula.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -163,7 +163,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA CUATRO QUESOS",
       "descripcion": "Variedad de quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCuatroQuesos.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -171,7 +171,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA VEGETARIANA",
       "descripcion": "Medallón vegetariano + Rúcula + Tomate + Huevo + pimientos asados",
       "precio": 3000,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaVegana.png"
     },
     {
       "categoria": "LOMOS",
@@ -227,7 +227,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteEntraña.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -235,7 +235,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteJamonQueso.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -355,7 +355,7 @@ const productosJSON = `
       "nombre": "FAJITAS",
       "descripcion": "2 tacos carne de lomo + Pimientos asados + Cebolla.",
       "precio": 3400,
-      "imagen": "./assets/fajitas.jpg"
+      "imagen": "./assets/fajitas.png"
     },
     {
       "categoria": "COMIDA MEXICANA",
@@ -451,7 +451,7 @@ const productosJSON = `
       "nombre": "BOMBON ESCOSES",
       "descripcion": "",
       "precio": 1600,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/bombonEscoces.png"
     },
     {
       "categoria": "POSTRES",
@@ -459,7 +459,7 @@ const productosJSON = `
       "nombre": "FLAN CASERO",
       "descripcion": "",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/flanCasero.png"
     },
     {
       "categoria": "POSTRES",
@@ -467,7 +467,7 @@ const productosJSON = `
       "nombre": "CAMIONERO",
       "descripcion": "Queso + Dulce",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/quesoDulce.png"
     },
     {
       "categoria": "POSTRES",
@@ -475,7 +475,7 @@ const productosJSON = `
       "nombre": "BUDIN DE PAN",
       "descripcion": "",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/budinPan.png"
     },
     {
       "categoria": "SUGERENCIA DEL DIA",
