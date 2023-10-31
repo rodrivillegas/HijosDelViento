@@ -83,7 +83,7 @@ const productosJSON = `
       "nombre": "PAPAS CLASICAS",
       "descripcion": "",
       "precio": 2600,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasFritas.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -91,7 +91,7 @@ const productosJSON = `
       "nombre": "PAPAS CON CHEDDAR",
       "descripcion": "Panceta ahumada + Verdeo",
       "precio": 3200,
-      "imagen": "./assets/papasPancetaCebolla.jpg"
+      "imagen": "./assets/papasCheedar1.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -99,7 +99,7 @@ const productosJSON = `
       "nombre": "PAPAS HIJOS DEL VIENTO",
       "descripcion": "Salsa criolla + Mayonesa casera",
       "precio": 3000,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasHijosDelViento.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -107,7 +107,7 @@ const productosJSON = `
       "nombre": "PAPAS MEXICANAS",
       "descripcion": "Chimi casero",
       "precio": 3000,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/papasChimi.png"
     },
     {
       "categoria": "ENTRADAS",
@@ -115,7 +115,7 @@ const productosJSON = `
       "nombre": "NUGGETS DE POLLO",
       "descripcion": "12Uni + Papas fritas",
       "precio": 3500,
-      "imagen": "./assets/PapasFritas.jpg"
+      "imagen": "./assets/nugget.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -123,7 +123,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA COMPLETA",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3200,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCompleta.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -131,7 +131,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCheddar.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -139,7 +139,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA MEXICANA",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaMexicana.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -147,7 +147,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaRoquefort.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -155,7 +155,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaRucula.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -163,7 +163,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA CUATRO QUESOS",
       "descripcion": "Variedad de quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3500,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaCuatroQuesos.png"
     },
     {
       "categoria": "HAMBURGUESAS",
@@ -171,7 +171,7 @@ const productosJSON = `
       "nombre": "HAMBURGUESA VEGETARIANA",
       "descripcion": "Medallón vegetariano + Rúcula + Tomate + Huevo + pimientos asados",
       "precio": 3000,
-      "imagen": "./assets/Hamburguesa.jpg"
+      "imagen": "./assets/hamburguesaVegana.png"
     },
     {
       "categoria": "LOMOS",
@@ -179,7 +179,7 @@ const productosJSON = `
       "nombre": "LOMO COMPLETO",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3400,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -187,7 +187,7 @@ const productosJSON = `
       "nombre": "LOMO CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "LOMOS",
@@ -195,7 +195,7 @@ const productosJSON = `
       "nombre": "LOMO MEXICANO",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -203,7 +203,7 @@ const productosJSON = `
       "nombre": "LOMO ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "LOMOS",
@@ -211,7 +211,7 @@ const productosJSON = `
       "nombre": "LOMO RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -219,7 +219,7 @@ const productosJSON = `
       "nombre": "LOMO CUATRO QUESOS",
       "descripcion": "Variedad de Quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -227,7 +227,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteEntraña.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -235,7 +235,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteJamonQueso.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -243,7 +243,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE SUPREMA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteMilanesaPollo.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -251,7 +251,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE MILANESA DE PECETO",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteMilanesaCarne.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -259,7 +259,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE PALTA + TOMATE + JAMON + QUESO",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguettePalta.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -267,7 +267,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE RUCULA + TOMATE + JAMON + QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteRucula.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -275,7 +275,7 @@ const productosJSON = `
       "nombre": "MILANESA AL LIMON",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarne.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -283,7 +283,7 @@ const productosJSON = `
       "nombre": "MILANESA A LA NAPOLITANA",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaNapolitanaCarne.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -291,7 +291,7 @@ const productosJSON = `
       "nombre": "MILANESA 3 QUESOS",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarne3Quesos.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -299,7 +299,7 @@ const productosJSON = `
       "nombre": "MILANESA AL ROQUEFORT",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarneRoquefort.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -307,7 +307,7 @@ const productosJSON = `
       "nombre": "SUPREMA AL LIMON",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaPollo.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -315,7 +315,7 @@ const productosJSON = `
       "nombre": "SUPREMA A LA NAPOLITANA",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaPolloNapolitana.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -323,7 +323,7 @@ const productosJSON = `
       "nombre": "SUPREMA AL ROQUEFORT",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/supremaRoquefort.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -331,7 +331,7 @@ const productosJSON = `
       "nombre": "SUPREMA 3 QUESOS",
       "descripcion": "Con + Pimientos Asados",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/suprema3Quesos.png"
     },
     {
       "categoria": "TABLA DE MILANESAS",
@@ -339,7 +339,7 @@ const productosJSON = `
       "nombre": "TABLA MILANESAS LA ORIGINAL",
       "descripcion": "6 variedades de milanesas de peceto + Rúcula + Crudo + Parmesano.",
       "precio": 7900,
-      "imagen": "./assets/TablaMilanesas.jpg"
+      "imagen": "./assets/tablaMilanesas.png"
     },
     {
       "categoria": "TABLA DE MILANESAS",
@@ -347,7 +347,7 @@ const productosJSON = `
       "nombre": "TABLA DE MILANESAS MIXTA",
       "descripcion": "3 milanesas de peceto + 3 milanesas de pollo + Rúcula + Crudo + Parmesano.",
       "precio": 7500,
-      "imagen": "./assets/TablaMilanesas.jpg"
+      "imagen": "./assets/tablaMilanesas2.png"
     },
     {
       "categoria": "COMIDA MEXICANA",
@@ -355,7 +355,7 @@ const productosJSON = `
       "nombre": "FAJITAS",
       "descripcion": "2 tacos carne de lomo + Pimientos asados + Cebolla.",
       "precio": 3400,
-      "imagen": "./assets/fajitas.jpg"
+      "imagen": "./assets/fajitas.png"
     },
     {
       "categoria": "COMIDA MEXICANA",
@@ -363,7 +363,7 @@ const productosJSON = `
       "nombre": "QUESADILLAS",
       "descripcion": "2 tacos + Jamón + Muzza.",
       "precio": 3100,
-      "imagen": "./assets/Tacos.jpg"
+      "imagen": "./assets/Tacos.png"
     },
     {
       "categoria": "PIZZAS",
@@ -371,7 +371,7 @@ const productosJSON = `
       "nombre": "PIZZA MUZZARELLA",
       "descripcion": "Salsa + Muzzarella + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/muzzarella.png"
     },
     {
       "categoria": "PIZZAS",
@@ -379,7 +379,7 @@ const productosJSON = `
       "nombre": "PIZZA ESPECIAL",
       "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/especial.png"
     },
     {
       "categoria": "PIZZAS",
@@ -387,7 +387,7 @@ const productosJSON = `
       "nombre": "PIZZA NAPOLITANA",
       "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/napolitana.png"
     },
     {
       "categoria": "PIZZAS",
@@ -395,7 +395,7 @@ const productosJSON = `
       "nombre": "PIZZA NAPO + ALBAHACA",
       "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/napolitanaAlbahaca.png"
     },
     {
       "categoria": "PIZZAS",
@@ -403,7 +403,7 @@ const productosJSON = `
       "nombre": "PIZZA ROQUEFORT",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/roquefort.png"
     },
     {
       "categoria": "PIZZAS",
@@ -411,7 +411,7 @@ const productosJSON = `
       "nombre": "PIZZA ROQUEFORT + MORRONES",
       "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/roquefortMorrones.png"
     },
     {
       "categoria": "PIZZAS",
@@ -419,7 +419,7 @@ const productosJSON = `
       "nombre": "PIZZA VERDURAS AL WOK",
       "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/verduras.png"
     },
     {
       "categoria": "PIZZAS",
@@ -427,7 +427,7 @@ const productosJSON = `
       "nombre": "FAJIPIZZA",
       "descripcion": "Salsa + Muzzarella + Pimientos al wok + Carne de lomo desmenuzada",
       "precio": 5400,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/fajipizza.png"
     },
     {
       "categoria": "PIZZAS",
@@ -435,7 +435,7 @@ const productosJSON = `
       "nombre": "PIZZA RUCULA",
       "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/rucula.png"
     },
     {
       "categoria": "PIZZAS",
@@ -443,7 +443,7 @@ const productosJSON = `
       "nombre": "PIZZA 3 QUESOS",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/3quesos.png"
     },
     {
       "categoria": "POSTRES",
@@ -451,7 +451,7 @@ const productosJSON = `
       "nombre": "BOMBON ESCOSES",
       "descripcion": "",
       "precio": 1600,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/bombonEscoces.png"
     },
     {
       "categoria": "POSTRES",
@@ -459,7 +459,7 @@ const productosJSON = `
       "nombre": "FLAN CASERO",
       "descripcion": "",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/flanCasero.png"
     },
     {
       "categoria": "POSTRES",
@@ -467,7 +467,7 @@ const productosJSON = `
       "nombre": "CAMIONERO",
       "descripcion": "Queso + Dulce",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/quesoDulce.png"
     },
     {
       "categoria": "POSTRES",
@@ -475,15 +475,15 @@ const productosJSON = `
       "nombre": "BUDIN DE PAN",
       "descripcion": "",
       "precio": 1200,
-      "imagen": "./assets/BudinPan.jpg"
+      "imagen": "./assets/budinPan.png"
     },
     {
       "categoria": "SUGERENCIA DEL DIA",
       "genero": "SUGERENCIA DEL DIA",
-      "nombre": "SUGERENCIA",
+      "nombre": "¡CONSULTAR!",
       "descripcion": "",
       "precio": "",
-      "imagen": ""
+      "imagen": "./assets/LogoHijosDelVientoAnimacion.png"
     }
   ]
 }

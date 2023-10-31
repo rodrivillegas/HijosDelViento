@@ -179,7 +179,7 @@ const productosJSON = `
       "nombre": "LOMO COMPLETO",
       "descripcion": "Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3400,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -187,7 +187,7 @@ const productosJSON = `
       "nombre": "LOMO CHEDDAR",
       "descripcion": "Cebolla morada + Queso cheddar + Barbacoa + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "LOMOS",
@@ -195,7 +195,7 @@ const productosJSON = `
       "nombre": "LOMO MEXICANO",
       "descripcion": "Pimientos salteados + Chimi + Lechuga + Tomate + Jamón + Queso + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -203,7 +203,7 @@ const productosJSON = `
       "nombre": "LOMO ROQUEFORT Y MORRONES",
       "descripcion": "Queso roquefort + Pimientos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "LOMOS",
@@ -211,7 +211,7 @@ const productosJSON = `
       "nombre": "LOMO RUCULA",
       "descripcion": "Rúcula + Tomate + Jamón + Queso + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo.png"
     },
     {
       "categoria": "LOMOS",
@@ -219,7 +219,7 @@ const productosJSON = `
       "nombre": "LOMO CUATRO QUESOS",
       "descripcion": "Variedad de Quesos + Lechuga + Tomate + Jamón + Huevo",
       "precio": 3700,
-      "imagen": "./assets/Lomo.jpg"
+      "imagen": "./assets/Lomo2.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -227,7 +227,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteEntraña.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -235,7 +235,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/baguette.jpg"
+      "imagen": "./assets/baguetteJamonQueso.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -243,7 +243,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE SUPREMA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteMilanesaPollo.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -251,7 +251,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE MILANESA DE PECETO",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteMilanesaCarne.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -259,7 +259,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE PALTA + TOMATE + JAMON + QUESO",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguettePalta.png"
     },
     {
       "categoria": "BAGUETTE",
@@ -267,7 +267,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE RUCULA + TOMATE + JAMON + QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/Baguette.jpg"
+      "imagen": "./assets/baguetteRucula.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -275,7 +275,7 @@ const productosJSON = `
       "nombre": "MILANESA AL LIMON",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarne.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -283,7 +283,7 @@ const productosJSON = `
       "nombre": "MILANESA A LA NAPOLITANA",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaNapolitanaCarne.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -291,7 +291,7 @@ const productosJSON = `
       "nombre": "MILANESA 3 QUESOS",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarne3Quesos.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -299,7 +299,7 @@ const productosJSON = `
       "nombre": "MILANESA AL ROQUEFORT",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaCarneRoquefort.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -307,7 +307,7 @@ const productosJSON = `
       "nombre": "SUPREMA AL LIMON",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaPollo.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -315,7 +315,7 @@ const productosJSON = `
       "nombre": "SUPREMA A LA NAPOLITANA",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/milanesaPolloNapolitana.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -323,7 +323,7 @@ const productosJSON = `
       "nombre": "SUPREMA AL ROQUEFORT",
       "descripcion": "",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/supremaRoquefort.png"
     },
     {
       "categoria": "MILANESAS/SUPREMAS",
@@ -331,7 +331,7 @@ const productosJSON = `
       "nombre": "SUPREMA 3 QUESOS",
       "descripcion": "Con + Pimientos Asados",
       "precio": 3700,
-      "imagen": "./assets/Milanesa.jpg"
+      "imagen": "./assets/suprema3Quesos.png"
     },
     {
       "categoria": "TABLA DE MILANESAS",
@@ -339,7 +339,7 @@ const productosJSON = `
       "nombre": "TABLA MILANESAS LA ORIGINAL",
       "descripcion": "6 variedades de milanesas de peceto + Rúcula + Crudo + Parmesano.",
       "precio": 7900,
-      "imagen": "./assets/TablaMilanesas.jpg"
+      "imagen": "./assets/tablaMilanesas.png"
     },
     {
       "categoria": "TABLA DE MILANESAS",
@@ -347,7 +347,7 @@ const productosJSON = `
       "nombre": "TABLA DE MILANESAS MIXTA",
       "descripcion": "3 milanesas de peceto + 3 milanesas de pollo + Rúcula + Crudo + Parmesano.",
       "precio": 7500,
-      "imagen": "./assets/TablaMilanesas.jpg"
+      "imagen": "./assets/tablaMilanesas2.png"
     },
     {
       "categoria": "COMIDA MEXICANA",
@@ -363,7 +363,7 @@ const productosJSON = `
       "nombre": "QUESADILLAS",
       "descripcion": "2 tacos + Jamón + Muzza.",
       "precio": 3100,
-      "imagen": "./assets/Tacos.jpg"
+      "imagen": "./assets/Tacos.png"
     },
     {
       "categoria": "PIZZAS",
@@ -483,7 +483,7 @@ const productosJSON = `
       "nombre": "¡CONSULTAR!",
       "descripcion": "",
       "precio": "",
-      "imagen": "./assets/logoHijosDelVientoAnimacion.png"
+      "imagen": "./assets/LogoHijosDelVientoAnimacion.png"
     }
   ]
 }
