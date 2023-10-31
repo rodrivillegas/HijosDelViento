@@ -99,7 +99,7 @@ const productosJSON = `
       "nombre": "PAPAS HIJOS DEL VIENTO",
       "descripcion": "Salsa criolla + Mayonesa casera",
       "precio": 3000,
-      "imagen": "./assets/PapasCheedar.png"
+      "imagen": "./assets/papasHijosDelViento.png"
     },
     {
       "categoria": "ENTRADAS",
