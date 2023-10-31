@@ -227,7 +227,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE ENTRAÑA",
       "descripcion": "",
       "precio": 3500,
-      "imagen": "./assets/baguetteEntraña.png"
+      "imagen": "./assets/Baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
@@ -235,7 +235,7 @@ const productosJSON = `
       "nombre": "BAGUETTE DE JAMON/QUESO",
       "descripcion": "",
       "precio": 3100,
-      "imagen": "./assets/baguetteJamonQueso.png"
+      "imagen": "./assets/baguette.jpg"
     },
     {
       "categoria": "BAGUETTE",
@@ -403,7 +403,7 @@ const productosJSON = `
       "nombre": "PIZZA ROQUEFORT",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/3quesos.png"
+      "imagen": "./assets/roquefort.png"
     },
     {
       "categoria": "PIZZAS",
@@ -443,7 +443,7 @@ const productosJSON = `
       "nombre": "PIZZA 3 QUESOS",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
       "precio": 4950,
-      "imagen": "./assets/roquefort.png"
+      "imagen": "./assets/3quesos.png"
     },
     {
       "categoria": "POSTRES",
@@ -480,10 +480,10 @@ const productosJSON = `
     {
       "categoria": "SUGERENCIA DEL DIA",
       "genero": "SUGERENCIA DEL DIA",
-      "nombre": "SUGERENCIA",
+      "nombre": "¡CONSULTAR!",
       "descripcion": "",
       "precio": "",
-      "imagen": ""
+      "imagen": "./assets/logoHijosDelVientoAnimacion.png"
     }
   ]
 }
