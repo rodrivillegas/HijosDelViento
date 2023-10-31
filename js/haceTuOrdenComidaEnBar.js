@@ -371,7 +371,7 @@ const productosJSON = `
       "nombre": "PIZZA MUZZARELLA",
       "descripcion": "Salsa + Muzzarella + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/muzzarella.png"
     },
     {
       "categoria": "PIZZAS",
@@ -379,7 +379,7 @@ const productosJSON = `
       "nombre": "PIZZA ESPECIAL",
       "descripcion": "Salsa + Muzzarella + Jamón + Morrones + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/especial.png"
     },
     {
       "categoria": "PIZZAS",
@@ -387,7 +387,7 @@ const productosJSON = `
       "nombre": "PIZZA NAPOLITANA",
       "descripcion": "Salsa + Muzzarella + Tomates + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/napolitana.png"
     },
     {
       "categoria": "PIZZAS",
@@ -395,7 +395,7 @@ const productosJSON = `
       "nombre": "PIZZA NAPO + ALBAHACA",
       "descripcion": "Salsa + Muzzarella + Tomates + Oliva + Albahaca fresca + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/napolitanaAlbahaca.png"
     },
     {
       "categoria": "PIZZAS",
@@ -403,7 +403,7 @@ const productosJSON = `
       "nombre": "PIZZA ROQUEFORT",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/3quesos.png"
     },
     {
       "categoria": "PIZZAS",
@@ -411,7 +411,7 @@ const productosJSON = `
       "nombre": "PIZZA ROQUEFORT + MORRONES",
       "descripcion": "Salsa + Muzzarella + Pimientos Salteados + Aceitunas + Queso Azul",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/roquefortMorrones.png"
     },
     {
       "categoria": "PIZZAS",
@@ -419,7 +419,7 @@ const productosJSON = `
       "nombre": "PIZZA VERDURAS AL WOK",
       "descripcion": "Salsa + Muzzarella + Zucchini + Berenjena + Pimientos + Cebolla salteada + Aceitunas",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/verduras.png"
     },
     {
       "categoria": "PIZZAS",
@@ -427,7 +427,7 @@ const productosJSON = `
       "nombre": "FAJIPIZZA",
       "descripcion": "Salsa + Muzzarella + Pimientos al wok + Carne de lomo desmenuzada",
       "precio": 5400,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/fajipizza.png"
     },
     {
       "categoria": "PIZZAS",
@@ -435,7 +435,7 @@ const productosJSON = `
       "nombre": "PIZZA RUCULA",
       "descripcion": "Salsa + Muzzarella + Rúcula + Tomates con tados + Panceta ahumada + Queso Parmesano",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/rucula.png"
     },
     {
       "categoria": "PIZZAS",
@@ -443,7 +443,7 @@ const productosJSON = `
       "nombre": "PIZZA 3 QUESOS",
       "descripcion": "Salsa + Muzzarella + Queso Azul + Sardo",
       "precio": 4950,
-      "imagen": "./assets/Pizza.jpg"
+      "imagen": "./assets/roquefort.png"
     },
     {
       "categoria": "POSTRES",
