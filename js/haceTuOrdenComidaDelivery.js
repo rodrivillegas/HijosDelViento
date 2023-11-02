@@ -600,7 +600,14 @@ const productosContainer = document.getElementById("productos-container");
 
 productosContainer.innerHTML = construirContenidoProductos();
 
-function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio) {
+function cambiarBoton(
+  checkboxId,
+  labelId,
+  cantidadId,
+  nombre,
+  precio,
+  categoria
+) {
   var listaOrden = document.getElementById("orden_lista");
   var checkbox = document.getElementById(checkboxId);
   var label = document.getElementById(labelId);
@@ -637,7 +644,31 @@ function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio) {
       }).showToast();
       return; // Detener la ejecución si no se selecciona una cantidad válida
     }
-    // Verificar la selección antes de agregar el producto
+    function mostrarToastAviso() {
+      const horaActual = new Date().getHours();
+      const horaInicioAviso = 23; // Hora de inicio para mostrar el aviso (23:00 horas)
+      const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
+      if (
+        categoria === "LOMOS" ||
+        (nombre === "BAGUETTE DE ENTRAÑA" &&
+          (horaActual >= horaInicioAviso || horaActual < horaFinAviso))
+      ) {
+        Toastify({
+          text: "¡Consultar disponibilidad!",
+          duration: 5500,
+          gravity: "center",
+          position: "center", // Centra el mensaje verticalmente
+          className: "toastify",
+          style: {
+            background: "linear-gradient(to bottom, #FFA500, #FF6347)",
+            color: "#fff", // Color del texto
+            fontSize: "3rem", // Tamaño del texto
+            padding: "1rem", // Relleno interno
+          },
+        }).showToast();
+      }
+    }
+    mostrarToastAviso();
 
     label.textContent = "Borrar pedido";
     label.classList.add("boton-borrar");

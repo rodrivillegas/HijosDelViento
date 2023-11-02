@@ -103,10 +103,10 @@ function enviarPedido() {
       }).showToast();
       return; // Detener la ejecución del código
     }
-    // Verificar si el número de mesa es válido (menor o igual a 199)
-    if (mesa > 199) {
+    // Verificar si el número de mesa es válido (menor o igual a 25)
+    if (mesa > 25) {
       // Mostrar mensaje de error personalizado
-      var mensajeError = "El número de mesa no puede ser mayor a 199.";
+      var mensajeError = "El número de mesa no puede ser mayor a 25.";
       Toastify({
         text: mensajeError,
         duration: 4000,

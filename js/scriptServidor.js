@@ -17,7 +17,6 @@ const firebaseConfig = {
   var filas = [];
   
   // Recuperar el estado de selección de las filas desde Firebase y actualizar la tabla
-  // Recuperar el estado de selección de las filas desde Firebase y actualizar la tabla
   database.ref().on("value", function (snapshot) {
     var datos = snapshot.val();
     var totalCaja = 0; // Inicializa el total de la caja en 0

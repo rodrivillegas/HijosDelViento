@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" href="./assets/LogoHijosDelVientoAnimacion.png" />
+    <link rel="shortcut icon" href="../assets/LogoHijosDelVientoAnimacion.png" />
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <link
@@ -12,26 +12,25 @@
     <title>Hijos del Viento - Servidor</title>
   </head>
   <body>
-    <h1>Recepción de pedidos en tiempo real</h1>
+    <h1>Recepción de pedidos en tiempo real 🏄‍♂️</h1>
     <table id="tablaDatos">
       <thead>
         <tr>
-          <th>Fecha</th>
-          <th>Hora</th>
-          <th>Detalles del pedido</th>
-          <th>Para Bar / Mesa Número:</th>
-          <th>Para Llevar</th>
-          <th>Cliente</th>
-          <th>Teléfono</th>
-          <th>Dirección</th>
-          <th>Comentarios</th>
-          <th>Valor de la Orden</th>
+          <th>FECHA</th>
+          <th>HORA</th>
+          <th>DETALLE del PEDIDO</th>
+          <th>BAR para MESA N°:</th>
+          <th>DELIVERY</th>
+          <th>CLIENTE</th>
+          <th>TELEFONO</th>
+          <th>DIRECCION</th>
+          <th>COMENTARIOS</th>
+          <th>VALOR ORDEN</th>
         </tr>
       </thead>
       <tbody id="tablaBody"></tbody>
     </table>
     <div id="totalCaja">Total de Ventas: $0.00</div>
-    <button onclick="ocultarProductosLomos()">Ocultar Lomos</button>
     <a href="../index.html" class="return-button">Volver a la aplicación 📲</a>
     <script src="../js/scriptServidor.js"></script>
   </body>

@@ -217,7 +217,7 @@ function solicitarContrasena() {
     showLoaderOnConfirm: true,
     preConfirm: (contrasena) => {
       // Comprueba si la contraseña es correcta
-      if (contrasena === 'Lucas') { // Reemplaza 'tucontrasena' con la contraseña deseada
+      if (contrasena === 'Lucas2023') { // Reemplaza 'tucontrasena' con la contraseña deseada
         return true;
       } else {
         Swal.showValidationMessage('Contraseña incorrecta. Acceso denegado.');
