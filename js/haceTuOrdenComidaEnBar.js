@@ -649,9 +649,8 @@ function cambiarBoton(
       const horaInicioAviso = 23; // Hora de inicio para mostrar el aviso (23:00 horas)
       const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
       if (
-        categoria === "LOMOS" ||
-        (nombre === "BAGUETTE DE ENTRAÑA" &&
-          (horaActual >= horaInicioAviso || horaActual < horaFinAviso))
+        (categoria === "LOMOS" || nombre === "BAGUETTE DE ENTRAÑA") &&
+        (horaActual >= horaInicioAviso || horaActual < horaFinAviso)
       ) {
         Toastify({
           text: "¡Consultar disponibilidad!",
