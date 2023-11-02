@@ -600,7 +600,7 @@ const productosContainer = document.getElementById("productos-container");
 
 productosContainer.innerHTML = construirContenidoProductos();
 
-function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio) {
+function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio, categoria) {
   var listaOrden = document.getElementById("orden_lista");
   var checkbox = document.getElementById(checkboxId);
   var label = document.getElementById(labelId);
@@ -637,8 +637,22 @@ function cambiarBoton(checkboxId, labelId, cantidadId, nombre, precio) {
       }).showToast();
       return; // Detener la ejecución si no se selecciona una cantidad válida
     }
-    // Verificar la selección antes de agregar el producto
-
+    if (categoria === "LOMOS") {
+      Toastify({
+        text: "¡Consultar disponibilidad!",
+        duration: 4000,
+        gravity: "center",
+        position: "center", // Centra el mensaje verticalmente
+        className: "toastify",
+        style: {
+          background: "linear-gradient(to bottom, #FFA500, #FF6347)",
+          color: "#fff", // Color del texto
+          fontSize: "3rem", // Tamaño del texto
+          padding: "1rem", // Relleno interno
+        },
+      }).showToast();
+    }
+    
     label.textContent = "Borrar pedido";
     label.classList.add("boton-borrar");
     agregar = true;
@@ -1011,7 +1025,7 @@ function enviarPedido() {
         } else {
           Swal.fire({
             title: "Pedido enviado con éxito",
-            text: "¡¡Gracias por visitarnos!! El tiempo estimado de demora es de 10 min. Le agradecemos su visita y le recordamos que el personal está a su disposición 😃.",
+            text: "¡¡Gracias por visitarnos!! El tiempo estimado de demora es de 25 min. Le agradecemos su visita y le recordamos que el personal está a su disposición 😃.",
             icon: "success",
             customClass: {
               container: "cartelConfirmaPedido",
