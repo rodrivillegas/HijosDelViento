@@ -70,44 +70,44 @@ const firebaseConfig = {
     filas.forEach(function (fila, index) {
       var selectedClass = fila.seleccionada ? "selected" : "";
   
-      // Utilizar el operador ternario para mostrar "*********" en lugar de "undefined"
+      // Utilizar el operador ternario para mostrar "✖✖✖✖✖" en lugar de "undefined"
       var detallesHtml = fila.detallesHtml
         ? fila.detallesHtml
-        : "*********";
-      var numeroMesa = fila.numeroMesa ? fila.numeroMesa : "*********";
-      var modoEntrega = fila.modoEntrega ? fila.modoEntrega : "*********";
+        : "✖✖✖✖✖";
+      var numeroMesa = fila.numeroMesa ? fila.numeroMesa : "✖✖✖✖✖";
+      var modoEntrega = fila.modoEntrega ? fila.modoEntrega : "✖✖✖✖✖";
       var nombreUsuario = fila.nombreUsuario
         ? fila.nombreUsuario
-        : "*********";
-      var telefono = fila.telefono ? fila.telefono : "*********";
-      var direccion = fila.direccion ? fila.direccion : "*********";
-      var comentarios = fila.comentarios ? fila.comentarios : "*********";
-      var precioFinal = fila.precioFinal ? fila.precioFinal : "*********";
+        : "✖✖✖✖✖";
+      var telefono = fila.telefono ? fila.telefono : "✖✖✖✖✖";
+      var direccion = fila.direccion ? fila.direccion : "✖✖✖✖✖";
+      var comentarios = fila.comentarios ? fila.comentarios : "✖✖✖✖✖";
+      var precioFinal = fila.precioFinal ? fila.precioFinal : "✖✖✖✖✖";
   
-      // Aplicar una clase de estilo si el valor es "*********"
+      // Aplicar una clase de estilo si el valor es "✖✖✖✖✖"
       var redTextClass = "red-text";
-      if (detallesHtml === "*********") {
+      if (detallesHtml === "✖✖✖✖✖") {
         detallesHtml = `<span class="${redTextClass}">${detallesHtml}</span>`;
       }
-      if (numeroMesa === "*********") {
+      if (numeroMesa === "✖✖✖✖✖") {
         numeroMesa = `<span class="${redTextClass}">${numeroMesa}</span>`;
       }
-      if (modoEntrega === "*********") {
+      if (modoEntrega === "✖✖✖✖✖") {
         modoEntrega = `<span class="${redTextClass}">${modoEntrega}</span>`;
       }
-      if (nombreUsuario === "*********") {
+      if (nombreUsuario === "✖✖✖✖✖") {
         nombreUsuario = `<span class="${redTextClass}">${nombreUsuario}</span>`;
       }
-      if (telefono === "*********") {
+      if (telefono === "✖✖✖✖✖") {
         telefono = `<span class="${redTextClass}">${telefono}</span>`;
       }
-      if (direccion === "*********") {
+      if (direccion === "✖✖✖✖✖") {
         direccion = `<span class="${redTextClass}">${direccion}</span>`;
       }
-      if (comentarios === "*********") {
+      if (comentarios === "✖✖✖✖✖") {
         comentarios = `<span class="${redTextClass}">${comentarios}</span>`;
       }
-      if (precioFinal === "*********") {
+      if (precioFinal === "✖✖✖✖✖") {
         precioFinal = `<span class="${redTextClass}">${precioFinal}</span>`;
       }
   

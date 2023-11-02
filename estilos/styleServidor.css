@@ -79,7 +79,7 @@ tr.selected td {
 .red-text {
   color:crimson;
   font-size: 1.5rem;
-  font-weight: bold;
+ 
 }
 
 .caja,
@@ -104,7 +104,8 @@ tr.selected td {
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s; /* Transición suave del color de fondo */
   font-size: 1.5rem;
-  color: red;
+  color:crimson;
+  font-weight: bold;
 }
 
 /* Estilos para el botón de retorno al pasar el mouse */
