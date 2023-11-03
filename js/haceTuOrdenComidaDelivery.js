@@ -664,7 +664,6 @@ function cambiarBoton(
             color: "#fff", // Color del texto
             fontSize: "2.5rem", // Tamaño del texto
             padding: "1rem", // Relleno interno
-            textAlign: "center", // Centra el texto horizontalmente
           },
         }).showToast();
         primerAvisoMostrado = true;
