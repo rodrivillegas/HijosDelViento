@@ -647,7 +647,7 @@ function cambiarBoton(
       return; // Detener la ejecución si no se selecciona una cantidad válida
     }
     const horaActual = new Date().getHours();
-    const horaInicioAviso = 10; // Hora de inicio para mostrar el aviso (23:00 horas)
+    const horaInicioAviso = 23; // Hora de inicio para mostrar el aviso (23:00 horas)
     const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
     if (
       (categoria === "LOMOS" || nombre === "BAGUETTE DE ENTRAÑA") &&
@@ -674,6 +674,7 @@ function cambiarBoton(
         var confirmacion = confirm(
           "¿Has consultado la disponibilidad y deseas agregar el producto?"
         );
+
         if (confirmacion) {
           // Usuario confirmó
           label.textContent = "Borrar pedido";
@@ -808,25 +809,25 @@ function agregarProducto(nombre, precio, seleccionado, checkboxId, listaOrden) {
   var precioTotal = precio * cantidad;
 
   if (seleccionado) {
-    var listItem = document.createElement("span");
+    var listItem = document.createElement("ul");
     listItem.classList.add("categoria-comun");
 
     var productoDescripcion = document.createElement("div");
     productoDescripcion.classList.add("producto-descripcion");
 
-    var nombreElemento = document.createElement("span");
+    var nombreElemento = document.createElement("ul");
     nombreElemento.classList.add("nombre");
     nombreElemento.innerHTML = nombre + ": ";
 
-    var cantidadElementoSpan = document.createElement("span");
-    cantidadElementoSpan.classList.add("cantidad", "cantidadDescripcion");
-    cantidadElementoSpan.innerHTML = "Cantidad: " + cantidad + "✔ ";
+    var cantidadElementoul = document.createElement("ul");
+    cantidadElementoul.classList.add("cantidad", "cantidadDescripcion");
+    cantidadElementoul.innerHTML = "Cantidad: " + cantidad + "✔ ";
 
-    var precioIndividualElemento = document.createElement("span");
+    var precioIndividualElemento = document.createElement("ul");
     precioIndividualElemento.classList.add("precio", "precioDescripcion");
     precioIndividualElemento.innerHTML = "Precio: $" + precioIndividual + "✔ ";
 
-    var precioTotalElemento = document.createElement("span");
+    var precioTotalElemento = document.createElement("ul");
     precioTotalElemento.classList.add(
       "precio",
       "precio-total",
@@ -835,7 +836,7 @@ function agregarProducto(nombre, precio, seleccionado, checkboxId, listaOrden) {
     precioTotalElemento.innerHTML = "Precio total: $" + precioTotal + "✔ ";
 
     productoDescripcion.appendChild(nombreElemento);
-    productoDescripcion.appendChild(cantidadElementoSpan);
+    productoDescripcion.appendChild(cantidadElementoul);
     productoDescripcion.appendChild(precioIndividualElemento);
     productoDescripcion.appendChild(precioTotalElemento);
 

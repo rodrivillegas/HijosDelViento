@@ -687,25 +687,25 @@ function agregarProducto(nombre, precio, seleccionado, checkboxId, listaOrden) {
   var precioTotal = precio * cantidad;
 
   if (seleccionado) {
-    var listItem = document.createElement("span");
+    var listItem = document.createElement("ul");
     listItem.classList.add("categoria-comun");
 
     var productoDescripcion = document.createElement("div");
     productoDescripcion.classList.add("producto-descripcion");
 
-    var nombreElemento = document.createElement("span");
+    var nombreElemento = document.createElement("ul");
     nombreElemento.classList.add("nombre");
     nombreElemento.innerHTML = nombre + ": ";
 
-    var cantidadElementoSpan = document.createElement("span");
-    cantidadElementoSpan.classList.add("cantidad", "cantidadDescripcion");
-    cantidadElementoSpan.innerHTML = "Cantidad: " + cantidad + "✔ ";
+    var cantidadElementoul = document.createElement("ul");
+    cantidadElementoul.classList.add("cantidad", "cantidadDescripcion");
+    cantidadElementoul.innerHTML = "Cantidad: " + cantidad + "✔ ";
 
-    var precioIndividualElemento = document.createElement("span");
+    var precioIndividualElemento = document.createElement("ul");
     precioIndividualElemento.classList.add("precio", "precioDescripcion");
     precioIndividualElemento.innerHTML = "Precio: $" + precioIndividual + "✔ ";
 
-    var precioTotalElemento = document.createElement("span");
+    var precioTotalElemento = document.createElement("ul");
     precioTotalElemento.classList.add(
       "precio",
       "precio-total",
@@ -714,7 +714,7 @@ function agregarProducto(nombre, precio, seleccionado, checkboxId, listaOrden) {
     precioTotalElemento.innerHTML = "Precio total: $" + precioTotal + "✔ ";
 
     productoDescripcion.appendChild(nombreElemento);
-    productoDescripcion.appendChild(cantidadElementoSpan);
+    productoDescripcion.appendChild(cantidadElementoul);
     productoDescripcion.appendChild(precioIndividualElemento);
     productoDescripcion.appendChild(precioTotalElemento);
 
