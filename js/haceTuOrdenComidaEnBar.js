@@ -655,7 +655,7 @@ function cambiarBoton(
     ) {
       if (!primerAvisoMostrado) {
         Toastify({
-          text: "Consulta disponibilidad llamando al Mozo 💁🏽‍♂️💁🏽‍♂️",
+          text: "Consulta disponibilidad con los Mozos 💁🏽‍♂️💁🏽‍♂️",
           duration: 5500,
           gravity: "center",
           position: "center", // Centra el mensaje verticalmente
