@@ -671,7 +671,7 @@ function cambiarBoton(
       } else {
         // Segundo aviso, pregunta para confirmar la disponibilidad
         var confirmacion = confirm(
-          "¿Has consultado la disponibilidad y deseas agregar el producto?"
+          "¿Consultaste la disponibilidad y deseas agregar el producto?"
         );
 
         if (confirmacion) {
