@@ -600,6 +600,8 @@ const productosContainer = document.getElementById("productos-container");
 
 productosContainer.innerHTML = construirContenidoProductos();
 
+var primerAvisoMostrado = false;
+
 function cambiarBoton(
   checkboxId,
   labelId,
@@ -644,14 +646,14 @@ function cambiarBoton(
       }).showToast();
       return; // Detener la ejecución si no se selecciona una cantidad válida
     }
-    function mostrarToastAviso() {
-      const horaActual = new Date().getHours();
-      const horaInicioAviso = 23; // Hora de inicio para mostrar el aviso (23:00 horas)
-      const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
-      if (
-        (categoria === "LOMOS" || nombre === "BAGUETTE DE ENTRAÑA") &&
-        (horaActual >= horaInicioAviso || horaActual < horaFinAviso)
-      ) {
+    const horaActual = new Date().getHours();
+    const horaInicioAviso = 10; // Hora de inicio para mostrar el aviso (23:00 horas)
+    const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
+    if (
+      (categoria === "LOMOS" || nombre === "BAGUETTE DE ENTRAÑA") &&
+      (horaActual >= horaInicioAviso || horaActual < horaFinAviso)
+    ) {
+      if (!primerAvisoMostrado) {
         Toastify({
           text: "¡Consultar disponibilidad!",
           duration: 5500,
@@ -665,19 +667,41 @@ function cambiarBoton(
             padding: "1rem", // Relleno interno
           },
         }).showToast();
+        primerAvisoMostrado = true;
+        return; // Detener la ejecución después de mostrar el primer aviso
+      } else {
+        // Segundo aviso, pregunta para confirmar la disponibilidad
+        var confirmacion = confirm(
+          "¿Has consultado la disponibilidad y deseas agregar el producto?"
+        );
+        if (confirmacion) {
+          // Usuario confirmó
+          label.textContent = "Borrar pedido";
+          label.classList.add("boton-borrar");
+          agregar = true;
+          tuOrdenElemento.textContent = "Tu orden 📝";
+          // Resto del código para agregar el producto...
+        } else {
+          Toastify({
+            text: "Producto NO agregado.",
+            duration: 4000,
+            gravity: "top",
+            position: "right",
+            className: "toastify",
+            style: {
+              background: "linear-gradient(to right, #FF4D4D, #FF9999)",
+            },
+          }).showToast();
+          return; // Detener la ejecución si el usuario selecciona "Cancelar"
+        }
       }
     }
-    mostrarToastAviso();
 
+    // Resto del código para agregar el producto si no se muestra el segundo aviso
     label.textContent = "Borrar pedido";
     label.classList.add("boton-borrar");
     agregar = true;
-
     tuOrdenElemento.textContent = "Tu orden 📝";
-
-    // Habilitar el botón de pedido
-    var botonPedido = document.getElementById("boton_pedido");
-    botonPedido.disabled = false;
   } else if (!checkbox.checked) {
     label.textContent = "Añadir al pedido";
     label.classList.remove("boton-borrar");
@@ -712,6 +736,8 @@ function cambiarBoton(
     // Mostrar el botón de pedido
     var botonPedido = document.getElementById("boton_pedido");
     botonPedido.style.display = "block";
+    var datosUsuarioElemento = document.getElementById("datos_usuario1");
+    datosUsuarioElemento.style.display = "block";
   } else {
     precioFinalElemento.textContent = "";
 
