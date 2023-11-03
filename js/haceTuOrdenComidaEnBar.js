@@ -655,8 +655,8 @@ function cambiarBoton(
     ) {
       if (!primerAvisoMostrado) {
         Toastify({
-          text: "Consulta disponibilidad con  Mozo 💁🏽‍♂️💁🏽‍♀️",
-          duration: 5500,
+          text: "Consulta disponibilidad con los Mozos 💁🏽‍♂️💁🏽‍♀️",
+          duration: 6000,
           gravity: "center",
           position: "center", // Centra el mensaje verticalmente
           className: "toastify",
@@ -665,6 +665,7 @@ function cambiarBoton(
             color: "#fff", // Color del texto
             fontSize: "3rem", // Tamaño del texto
             padding: "1rem", // Relleno interno
+            textAlign: "center", // Centra el texto horizontalmente
           },
         }).showToast();
         primerAvisoMostrado = true;
