@@ -662,7 +662,7 @@ function cambiarBoton(
           style: {
             background: "linear-gradient(to bottom, #FFA500, #FF6347)",
             color: "#fff", // Color del texto
-            fontSize: "3rem", // Tamaño del texto
+            fontSize: "2.5rem", // Tamaño del texto
             padding: "1rem", // Relleno interno
           },
         }).showToast();
