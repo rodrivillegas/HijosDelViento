@@ -654,7 +654,7 @@ function cambiarBoton(
     ) {
       if (!primerAvisoMostrado) {
         Toastify({
-          text: "¡Consultar disponibilidad!",
+          text: "Consulta disponibilidad llamando al Local 📞...",
           duration: 5500,
           gravity: "center",
           position: "center", // Centra el mensaje verticalmente

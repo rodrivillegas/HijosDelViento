@@ -647,7 +647,7 @@ function cambiarBoton(
       return; // Detener la ejecución si no se selecciona una cantidad válida
     }
     const horaActual = new Date().getHours();
-    const horaInicioAviso = 23; // Hora de inicio para mostrar el aviso (23:00 horas)
+    const horaInicioAviso = 9; // Hora de inicio para mostrar el aviso (23:00 horas)
     const horaFinAviso = 6; // Hora de finalización para mostrar el aviso (06:00 horas)
     if (
       (categoria === "LOMOS" || nombre === "BAGUETTE DE ENTRAÑA") &&
@@ -655,7 +655,7 @@ function cambiarBoton(
     ) {
       if (!primerAvisoMostrado) {
         Toastify({
-          text: "¡Consultar disponibilidad!",
+          text: "Consulta disponibilidad llamando al Mozo 💁🏽‍♂️💁🏽‍♂️",
           duration: 5500,
           gravity: "center",
           position: "center", // Centra el mensaje verticalmente
